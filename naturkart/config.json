@@ -1,0 +1,411 @@
+{
+  "id": "naturkart",
+  "title": "Kartlegging av natur i Norge",
+  "subtitle": "Modellbaserte kart av forekomster og korridorer for arter og økosystemer i Norge.",
+  "description": "Modellbaserte kart av forekomster og korridorer for arter og økosystemer:\n\n\r\nVåre kart viser forekomster av arter og økosystemer, egnethet for leveområder og tilknytningskorridorer ved hjelp av ulike modelleringsteknikker. Dette inkluderer modeller for artsdistribusjon, nettverksbaserte konnektivitetsmodeller og maskinlæring anvendt på fjernmålingsdata. Valget av modelleringsrammeverk avhenger av den spesifikke oppgaven, og derfor tilbyr vi kartspesifikk dokumentasjon tilpasset ulike brukergrupper.\n\n\r\nFor norske forvaltningsinteressenter tilbyr vi dokumentasjon på norsk i samsvar med GeoNorge-templaten. Dette sikrer klarhet og relevans for lokale forvaltningsformål. I tillegg tilbyr vi detaljert dokumentasjon på engelsk for det vitenskapelige samfunnet, i tråd med Oversikt, Data, Modell, Vurdering og Prediksjon (ODMAP)-protokollen som er beskrevet av Zurell m.fl. (2020). Denne protokollen fungerer som et standardisert rammeverk for omfattende vitenskapelig dokumentasjon, som legger til rette for gjennomsiktighet og reproduksjonsevne i vår metodikk.\n\n\r\nVed å tilpasse oss både lokale forvaltningsbehov og vitenskapelige standarder, fungerer våre kart som verdifulle verktøy for informert beslutningstaking og økologisk forskning.\n\n\r\nFor mer informasjon, vennligst se [Zurell m.fl. (2020)](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.04960) og vår spesifikke dokumentasjon for hvert kart.",
+  "icon": "https://pycsw.nina.no/media/maps/logo/naturkart/NINAmap_logo.png",
+  "baseMap": "positron",
+  "layerOrder": [],
+  "viewState": {
+    "longitude": 17.8,
+    "latitude": 65.6,
+    "zoom": 4
+  },
+  "expandedItems": [
+    "group-10",
+    "group-17"
+  ],
+  "items": {
+    "root": {
+      "name": "Layers",
+      "type": "folder",
+      "children": [
+        "group-10",
+        "group-17"
+      ]
+    },
+    "group-10": {
+      "name": "Species",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "group-11",
+        "group-12",
+        "group-15"
+      ]
+    },
+    "group-11": {
+      "name": "Birds",
+      "type": "folder",
+      "description": "",
+      "children": []
+    },
+    "group-12": {
+      "name": "Mammmals",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "group-13",
+        "group-14"
+      ]
+    },
+    "group-13": {
+      "name": "Reindeer",
+      "type": "folder",
+      "description": "",
+      "children": []
+    },
+    "group-14": {
+      "name": "Moose",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "group-21",
+        "elg-egnethabitat-norway-2023-100m",
+        "elg-permeabilitet-norway-2023-100m",
+        "elg-funksjonellehabitat-norway-2023-100m",
+        "elg-korridorer-norway-2023-100m"
+      ]
+    },
+    "group-21": {
+      "name": "Winter",
+      "type": "folder",
+      "description": "",
+      "children": []
+    },
+    "elg-egnethabitat-norway-2023-100m": {
+      "name": "Suitable Habitat",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/89/elg_egnethabitat_norway_2023_100m.tif_sMKeeGK.cog",
+          "bidx": 1,
+          "colormap_name": "greens",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "greens",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "elg-permeabilitet-norway-2023-100m": {
+      "name": "Permeability",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/92/elg_permeabilitet_norway_2023_100m.tif_O5UTsL5.cog",
+          "bidx": 1,
+          "colormap_name": "gray",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "gray",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "elg-funksjonellehabitat-norway-2023-100m": {
+      "name": "Functional Habitat",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/90/elg_funksjonellehabitat_norway_2023_100m.tif_sugmUcY.cog",
+          "bidx": 1,
+          "colormap_name": "viridis",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "elg-korridorer-norway-2023-100m": {
+      "name": "Corridors",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/91/elg_korridorer_norway_2023_100m.tif_H1OW1fJ.cog",
+          "bidx": 1,
+          "colormap_name": "magma",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "magma",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "group-15": {
+      "name": "Insects",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "group-16"
+      ]
+    },
+    "group-16": {
+      "name": "Solitary bees",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "solitarybees-suitablehabitat-norway-2023-100m",
+        "solitarybees-permeablehabitat-norway-2023-100m",
+        "solitarybees-functionalhabitat-norway-2023-100m",
+        "solitarybees-corridors-norway-2023-100m"
+      ]
+    },
+    "solitarybees-suitablehabitat-norway-2023-100m": {
+      "name": "Suitable Habitat",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/147/Solitaerebier_habitatkvalitet.tif.cog",
+          "bidx": 1,
+          "colormap_name": "greens",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "greens",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "solitarybees-permeablehabitat-norway-2023-100m": {
+      "name": "Permeability",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/149/Solitaerebier_permeabilitet.tif.cog",
+          "bidx": 1,
+          "colormap_name": "gray",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "gray",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "solitarybees-functionalhabitat-norway-2023-100m": {
+      "name": "Functional Habitat",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/150/Solitaerebier_SQRTlandskapetsfunksjonalitet.tif.cog",
+          "bidx": 1,
+          "colormap_name": "viridis",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "solitarybees-corridors-norway-2023-100m": {
+      "name": "Corridors",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/148/Solitaerebier_korridorer.tif.cog",
+          "bidx": 1,
+          "colormap_name": "magma",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "magma",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "group-17": {
+      "name": "Ecosystem",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "group-18",
+        "group-19"
+      ]
+    },
+    "group-18": {
+      "name": "Wetlands",
+      "type": "folder",
+      "description": "",
+      "children": []
+    },
+    "group-19": {
+      "name": "Forest",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "group-20"
+      ]
+    },
+    "group-20": {
+      "name": "Temperate deciduous forests",
+      "type": "folder",
+      "description": "[Scientific description of models and maps](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.04960)\n\n\r\nFakta\r\nNasjonalt dekkende kart (fastlands-Norge) av grønninfrastruktur for edellauvskog i Norge med 100x100 meter oppløsning, som finnes har.\n\n\r\nVi har laget fire kart over edellauvskog i Norge:  \n\n\r\n\r\nEgnet habitat i 2100: Gjennomsnitt sannsynlighet for forekomst av edellauvtræer basert på lokale miljøforhold og klimascenarioer uansett tilgjengelighet\r\nForekomstareal i dag: Gjennomsnitt sannsynlighet for forekomst av edellauvtræer basert på lokale miljøforhold å dagens distribusjon som tar hensyn til tilgjengelighet\r\nFunksjonelle habitat 2000-2100: Kartlegging av fem kategorier basert på forventet forekomstareal av edellauvtræer i dag og i 2100, og egnet habitat i 2100: alltid uegnet, stabilt forekomst, sårbar (dvs. forekomst i dag, men uenget i 2100), kolonisert (uegnet nå, men egnet og tilgjengelig i 2100), og utilgjengelig  (egnet i 2100, men utilgjengelig).    \r\nKorridorer 2000-2100: Forventet antall koloniseringer for edellauvtrær som går gjennom en piksel\r\n\r\nProjeksjon: ETRS89 / UTM zone 33N (EPSG:25833)\n\n\r\nFormål/Bruksområde\r\nEdellauvskog har høyt naturmangfold og forventes å bevege seg oppover og nordover som følge av klimaendringene. Kart med forflytningskorridorer og fremtidig tilgjengelig og utilgjengelig område vil derfor være verdifulle for flere fagmiljøer i Norge fra kommune, fylkeskommune, Statsforvalter og andre nasjonale aktører, men også privat sektor.\n\n\r\nDe modeller og karter fungerer generelt utmerkede. Men husk at disse kartene stammer fra modeller og ikke fra direkte observasjoner, derfor vil det forekomme avvik.\n\n\r\nBakkgrunn\r\nOppdragsgiver: Miljødirektoratet\n\n\r\nDet skal utvikles et datagrunnlag over grønn infrastruktur på nasjonalt nivå med tilstrekkelig detaljeringsgrad til bruk i kommunal arealplanlegging på overordnet nivå (Prosjektnummer: 22047055). \n\n\r\nKartlegging av grønn infrastruktur for edellauvskog: forekomstareal, egnede leveområder, funksjonelle habitat som er framtidens egnet habitat tilgjengelig fra nåværende forekomstareal, og konnektivitet mellom dagens forekomstareal og framtidens habitat.\n\n\r\nDatakilder og metode\r\nVi har brukt data over forekomst av edellauvtrær i de nasjonale skogovervåkings-programmenes prøveflater i Europa (totalt 237202 prøveflater), inkludert Landsskogtakseringens flater i Norge. Vi modellerte egnede levesteder (habitater) og konnektiviteten mellom disse for fem edellauvtre-arter som er naturlig hjemmehørende i Norge. Disse var spisslønn (Acer platanoides), bøk (Fagus sylvatica), ask (Fraxinus excelsior), lind  (Tilia cordata), og alm (Ulmus glabra). Vi kunne ikke bruke data fra sommereik (Quercus robur) og vintereik  (Quercus petraea) i datagrunnlaget da eik ikke registreres på artsnivå i Landsskogtakeringen i Norge. \n\n\r\nSammen med forekomstdata av edellauvtrær har vi brukt flere miljøvariabler (inkl. topografi, jordegenskaper og klimadata) for å trene en maskinlæringsmodell i Europa. Deretter har vi brukt modellen til å forutsi habitategnethet for hver art under både nåværende forhold og under scenarier av klimaendring i 2030, 2060, og i 2090. I tillegg til habitatsmodell, brukte vi også [høyopplåselige satellittdata](https://doi.org/10.2909/7b28d3c1-b363-4579-9141-bdd09d073fd8) (fra EU Copernicus programmet; 100x100 m piksler) om dominerende treslag (dvs. barskog eller løvskog) for å kartlegge dagens forekomst av edellauvskog i Fennoskandia (inkl. Norge).\n\n\r\nVi har da estimert funksjonelle konnektivitet mellom dagens habitat og framtidens egnet habitat i Fennoskandia, og de viktigste korridorer. Etterpå har vi integrert kartene for enkeltarter av edellauvtrær til fire sett med kart over edellauvskog i Norge. Til slutt har vi oppsummert hvert sett med et enkelt kart.\n\n\r\nKontaktperson\r\nNaermeste leder?",
+      "children": [
+        "edellauvskog-habitategenhet-x10000-norway-2023-100m",
+        "edellauvskog-forekomst-x10000-norway-2023-100m",
+        "edellauvskog-omradetsfunksjonalitet-x10000-norway-2023-100m",
+        "edellauvskog-korridorer-x10000-norway-2023-100m"
+      ]
+    },
+    "edellauvskog-habitategenhet-x10000-norway-2023-100m": {
+      "name": "Suitable Habitat 2100",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/94/Edellauvskog_habitatkvalitet_2100.tif.cog",
+          "bidx": 1,
+          "colormap_name": "greens",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "greens",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "edellauvskog-forekomst-x10000-norway-2023-100m": {
+      "name": "Occurrence 2000",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/95/Edellauvskog_habitatkvalitet_endring.tif.cog",
+          "bidx": 1,
+          "colormap_name": "rdbu",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "rdbu",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "edellauvskog-omradetsfunksjonalitet-x10000-norway-2023-100m": {
+      "name": "Functional Habitat 2100",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/98/Edellauvskog_landskapetsfunksjonalitet_2100.tif.cog",
+          "bidx": 1,
+          "colormap_name": "viridis",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "edellauvskog-korridorer-x10000-norway-2023-100m": {
+      "name": "Corridors 2000-2100",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/96/Edellauvskog_korridorer.tif.cog",
+          "bidx": 1,
+          "colormap_name": "magma",
+          "algorithm": "stravaclahe",
+          "buffer": 512,
+          "maxzoom": 22
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "magma",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "osm": {
+      "name": "osm",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    }
+  },
+  "config": {
+    "titiler_api_url": "/titiler",
+    "theme": "nina",
+    "language": "en",
+    "footer": {
+      "items": [
+        "![](https://maps.nina.no/assets/logowhite-6HSLYLYZ.png)",
+        "Norsk institutt for naturforskning - [www.nina.no](https://www.nina.no)"
+      ],
+      "justify": "justify-between",
+      "align": "items-baseline"
+    }
+  }
+}

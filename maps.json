@@ -1,0 +1,35 @@
+{
+    "maps": [
+        {
+            "title": "Built-up expansion over Norway 2017-2024",
+            "id": "built-up-expansion-over-norway-2017-2024",
+            "description": "AI-detected built-up expansion (nedbygging) events across Norway from 2017-2024 using Sentinel-2 satellite imagery and Dynamic World."
+        },
+        {
+            "title": "Analyse av planlagt utbyggingsareal i Norge",
+            "id": "analyse-av-planlagt-utbyggingsareal-i-norge",
+            "description": "Analysen viser planlagte, men ikke utbygde, utbyggingsområder i norske kommuner basert på gjeldende arealplaner."
+        },
+        {
+            "title": "Planlagt utbyggingsareal i Norge",
+            "id": "planlagt-utbyggingsareal-i-norge",
+            "description": "NINA har i samarbeid med Nordfjord EDB, NIBIO og Agder Fylkeskommune unders\u00f8kt hvor store arealer so..."
+        },
+        {
+            "title": "Kartlegging av natur i Norge",
+            "id": "naturkart",
+            "description": "Modellbaserte kart av forekomster og korridorer for arter og \u00f8kosystemer:..."
+        },
+        {
+            "title": "Kartportal for Finskala Naturregnskap",
+            "id": "localEA",
+            "description": "Kartportal for Finskala Naturregnskap\r..."
+        },
+        {
+            "title": "Norwegian Ecological Networks",
+            "id": "NorwegianEcologicalNetworks",
+            "description": "Denne kartportalen presenterer habitat konnektivitetskart for norske arter. I portalen f\u00e5r du oversi..."
+        }
+    ],
+    "icon": "/logo.png"
+}

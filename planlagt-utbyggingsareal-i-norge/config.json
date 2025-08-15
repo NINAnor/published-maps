@@ -1,0 +1,301 @@
+{
+  "id": "planlagt-utbyggingsareal-i-norge",
+  "title": "Planlagt utbyggingsareal i Norge",
+  "subtitle": "Indikasjon på mulig framtidig utbyggingsareal i kommunale arealplaner etter plan- og bygningsloven",
+  "description": "NINA har i samarbeid med Nordfjord EDB, NIBIO og Agder Fylkeskommune undersøkt hvor store arealer som er avsatt til framtidig utbygging i gjeldende arealplaner etter plan- og bygningsloven, men som ikke enda er bygget ut. Disse områdene kaller vi arealreserver for utbygging. Vi har brukt oppdaterte, offisielle og offentlig tilgjengelige data for kommunale arealplaner etter plan- og bygningsloven for å estimere arealreserver for utbygging. Resultatet er et geografisk datasett som indikerer planlagte, men ikke utbygde, utbyggingsområder i kommunene. Datasettet inneholder resultater fra planlegging på flere detaljnivåer fra detaljerte reguleringsplaner til oversiktsplaner (kommuneplanens arealdel). Oversikten gjelder kategoriene bolig, fritidsbolig og næringsformål. Kategoriene samferdsel, idrettsanlegg og energianlegg er ikke inkludert i kartet.\n\nKartet er basert på digitale plandata i Geonorge. Det er stor variasjon mellom kommunene i alder og kvalitet på slike plandata. Kartet må derfor oppfattes som en usikker indikasjon på hvor planlagt utbyggingsareal finnes. Kartet kan forbedres med bedre og mer oppdaterte data fra kommunene. For det enkelte område er det alltid kommunen som har oversikt over gjeldende planstatus og tillatt arealbruk.\n\nMetode og resultater er beskrevet i [NINA Rapport 2310 Planlagt utbyggingsareal i Norge](https://hdl.handle.net/11250/3085779).\n\n\r\nVi er kjent med at datasettet inneholder enkelte feil og mangler. \r\nNy og forbedret versjon vil publiseres i 2024.",
+  "icon": "https://maps.nina.no/assets/logosmall-BFfoJdyr.png",
+  "baseMap": "positron",
+  "layerOrder": [
+    "bolig-eller-sentrumsformal",
+    "fritidsbebyggelse",
+    "tjenesteyting",
+    "handel",
+    "turistformal",
+    "naeringsvirksomhet",
+    "rastoffutvinning",
+    "kombinerte-formal",
+    "forsvaret",
+    "havner-og-smabathavner"
+  ],
+  "viewState": {
+    "longitude": 17.8,
+    "latitude": 65.6,
+    "zoom": 4
+  },
+  "expandedItems": [
+    "main-layers",
+    "basemaps"
+  ],
+  "items": {
+    "root": {
+      "name": "Layers",
+      "type": "folder",
+      "children": [
+        "main-layers",
+        "basemaps"
+      ]
+    },
+    "main-layers": {
+      "name": "Planlagt utbyggingsareal i Norge",
+      "type": "folder",
+      "children": [
+        "bolig-eller-sentrumsformal",
+        "fritidsbebyggelse",
+        "tjenesteyting",
+        "handel",
+        "turistformal",
+        "naeringsvirksomhet",
+        "rastoffutvinning",
+        "kombinerte-formal",
+        "forsvaret",
+        "havner-og-smabathavner"
+      ]
+    },
+    "basemaps": {
+      "name": "Base layers",
+      "type": "folder",
+      "children": [
+        "openstreetmap"
+      ]
+    },
+    "bolig-eller-sentrumsformal": {
+      "name": "Bolig eller sentrumsformål",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/29/01_Bolig_eller_sentrumsform%C3%A5l.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#FFFF66",
+              "opacity": 1,
+              "description": "Bolig eller sentrumsformål"
+            }
+          }
+        }
+      }
+    },
+    "fritidsbebyggelse": {
+      "name": "Fritidsbebyggelse",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/30/02_Fritidsbebyggelse.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#FFCC33",
+              "opacity": 1,
+              "description": "Fritidsbebyggelse"
+            }
+          }
+        }
+      }
+    },
+    "tjenesteyting": {
+      "name": "Tjenesteyting",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/31/03_Tjenesteyting.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#FF6699",
+              "opacity": 1,
+              "description": "Tjenesteyting"
+            }
+          }
+        }
+      }
+    },
+    "handel": {
+      "name": "Handel",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/32/04_Handel.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#9999FF",
+              "opacity": 1,
+              "description": "Handel"
+            }
+          }
+        }
+      }
+    },
+    "turistformal": {
+      "name": "Turistformål",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/33/05_Turistform%C3%A5l.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#666699",
+              "opacity": 1,
+              "description": "Turistformål"
+            }
+          }
+        }
+      }
+    },
+    "naeringsvirksomhet": {
+      "name": "Næringsvirksomhet",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/34/06_N%C3%A6ringsvirksomhet.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#9966CC",
+              "opacity": 1,
+              "description": "Næringsvirksomhet"
+            }
+          }
+        }
+      }
+    },
+    "rastoffutvinning": {
+      "name": "Råstoffutvinning",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/35/07_R%C3%A5stoffutvinning.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#AC6668",
+              "opacity": 1,
+              "description": "Råstoffutvinning"
+            }
+          }
+        }
+      }
+    },
+    "kombinerte-formal": {
+      "name": "Kombinerte formål",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/36/08_Kombinerte_form%C3%A5l.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#996600",
+              "opacity": 1,
+              "description": "Kombinerte formål"
+            }
+          }
+        }
+      }
+    },
+    "forsvaret": {
+      "name": "Forsvaret",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/37/13_Forsvaret.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#999966",
+              "opacity": 1,
+              "description": "Forsvaret"
+            }
+          }
+        }
+      }
+    },
+    "havner-og-smabathavner": {
+      "name": "Havner og småbåthavner",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/38/16_Havner_og_sm%C3%A5b%C3%A5thavner.pmtiles"
+        },
+        "children": {
+          "source-layer": "Planlagt-Utbygging2023",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#66B1B1",
+              "opacity": 1,
+              "description": "Havner og småbåthavner"
+            }
+          }
+        }
+      }
+    },
+    "openstreetmap": {
+      "name": "OpenStreetMap",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    }
+  },
+  "config": {
+    "titiler_api_url": "/titiler",
+    "theme": "nina",
+    "language": "en",
+    "footer": {
+      "items": [
+        "![](https://maps.nina.no/assets/logowhite-6HSLYLYZ.png)",
+        "Norsk institutt for naturforskning - [www.nina.no](https://www.nina.no)"
+      ],
+      "justify": "justify-between",
+      "align": "items-baseline"
+    }
+  }
+}

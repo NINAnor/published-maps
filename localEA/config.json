@@ -1,0 +1,589 @@
+{
+  "id": "localEA",
+  "title": "Kartportal for Finskala Naturregnskap",
+  "subtitle": "Local Ecosystem Accounts",
+  "description": "## Kartportal for Finskala Naturregnskap\n\nKartportalen tilbyr en omfattende oversikt over ulike naturregnskapsprosjekter i NINA. Hvert prosjekt er kategorisert etter spesifikke kartlag, som er organisert i henhold til komponentene i naturregnskapsrammeverket:\n\n- Økosystemtjenester (*Ecosystem Services*)\n- Utbredelsen (*Ecosystem Extent*)\n- Økologisk tilstand (*Ecosystem Condition*)\n- Andre temakart (*Misc.*)",
+  "icon": "https://maps.nina.no/assets/logosmall-BFfoJdyr.png",
+  "baseMap": "positron",
+  "layerOrder": [],
+  "viewState": {
+    "longitude": 17.8,
+    "latitude": 65.6,
+    "zoom": 4
+  },
+  "expandedItems": [
+    "group-48"
+  ],
+  "items": {
+    "root": {
+      "name": "Layers",
+      "type": "folder",
+      "children": [
+        "group-48"
+      ]
+    },
+    "group-48": {
+      "name": "Blågrønn kartportal Oslo (SPARE)",
+      "type": "folder",
+      "description": "## Description\n\nThe overall aim of SPARE is to provide knowledge, evidence-based management approaches and tools to better integrate climate change adaptation (with a focus on stormwater management), biodiversity support and recreation in urban land-use management by using BGI to enable SPARE-management and facilitate the transition to blue-green cities. Here all map layers can be viewed and downloaded. \nTo interact with the layers visit interactive map portal: [AGOL Blågrønn kartportal](https://experience.arcgis.com/experience/5f702504313c4cedad1eab4791203b4b).\n\nTags: blågrønn, økosystemtjeneste, GIS\n\nProject webpage: [Dokumentasjon - Blågrønn kartportal Oslo (SPARE)](https://ninanor.github.io/SPARE_project/)\n\n## Contacts\n\n- David Barton\n\t- Role: project leader\n\t- Organisation: Norsk institutt for naturforskning\n\t- Email: [david.barton@nina.no](mailto:david.barton@nina.no)\n\t- Orcid: [https://orcid.org/https://orcid.org/0000-0002-6501-9381](https://orcid.org/https://orcid.org/0000-0002-6501-9381)\n            \n        \n        \n        \n            Maria Korkou\n            \n                Role: data manager\n                Organisation: Norsk institutt for naturforskning\n                Email: [maria.korkou@nina.no](mailto:maria.korkou@nina.no)\n                Orcid: [https://orcid.org/https://orcid.org/0000-0001-5766-9109](https://orcid.org/https://orcid.org/0000-0001-5766-9109)\n            \n        \n        \n        \n            Willeke A&#39;Campo\n            \n                Role: participant\n                Organisation: Norsk institutt for naturforskning\n                Email: [willeke.acampo@nina.no](mailto:willeke.acampo@nina.no)\n                Orcid: [https://orcid.org/https://orcid.org/0000-0001-8723-3832](https://orcid.org/https://orcid.org/0000-0001-8723-3832)\n            \n        \n        \n        \n            Sunniva Bahlk\n            \n                Role: participant\n                Organisation: Norsk institutt for naturforskning\n                Email: [sunniva.bahlk@gmail.com](mailto:sunniva.bahlk@gmail.com)\n                Orcid: [https://orcid.org/None](https://orcid.org/None)\n            \n        \n        \n    \n\n    Project metadata\n    \n        Project ID: nina-15216100\n        Project title: Blågrønn kartportal Oslo (SPARE)\n        Project short title: 15216100_SPARE\n        Project type: Urban Ecosystem Accounting\n        Project funding: None\n        Project period: 2022-2025",
+      "children": [
+        "group-49",
+        "group-51",
+        "group-52",
+        "group-50"
+      ]
+    },
+    "group-49": {
+      "name": "Andre temakart",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "15216100_population_density_district_0301",
+        "15216100_neighbourhoods_0301",
+        "15216100_urban_form_blocks_0301",
+        "15216100_friluftslivomrader_0301",
+        "15216100_districts_0301",
+        "15216100_building_zone_0301"
+      ]
+    },
+    "15216100_population_density_district_0301": {
+      "name": "Befolkningstetthet per grunnkrestser (SBB)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/188/population_density_district_0301.tif.cog",
+          "colormap_name": "ylorbr_r",
+          "rescale": "0,1",
+          "bidx": 1,
+          "minzoom": "0"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "ylorbr_r",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_neighbourhoods_0301": {
+      "name": "Bydeler (PBE)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_urban_form_blocks_0301": {
+      "name": "Bymorfologitypologiklassifisering for blokker (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_friluftslivomrader_0301": {
+      "name": "Friluftslivområder (Oslo kommune)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_districts_0301": {
+      "name": "Grunnkrets (PBE)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_building_zone_0301": {
+      "name": "Oslobyggesone (PBE)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "group-51": {
+      "name": "Økologisk tilstand",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "15216100_300m_GS_0301",
+        "15216100_30percent_treecover_0301",
+        "15216100_3trees_0301",
+        "15216100_land_surface_temperature_0301",
+        "15216100_pollinator_potentential_0301",
+        "15216100_honningbie_Oslobyg",
+        "15216100_air_pollution_0301",
+        "15216100_surface_runoff_0301",
+        "15216100_tree_cluster_accessibility_0301",
+        "15216100_tree_crowns_0301",
+        "15216100_roads_spill_over_20mm_0301",
+        "15216100_roads_spill_over_50mm_0301"
+      ]
+    },
+    "15216100_300m_GS_0301": {
+      "name": "300 m fra boligbygg til nærmeste grøntområder per grunnkretser (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_30percent_treecover_0301": {
+      "name": "30% trekronedekning i boligbygg per grunnkretser (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_3trees_0301": {
+      "name": "3 tre synlige fra boligbygg per grunnkretser (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_land_surface_temperature_0301": {
+      "name": "Bakketemperatur  (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/197/land_surface_temperature_0301.tif.cog",
+          "colormap_name": "rdylbu_r",
+          "rescale": "0,1",
+          "bidx": 1,
+          "minzoom": "0"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "rdylbu_r",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_pollinator_potentential_0301": {
+      "name": "Egnethet for pollinerede insekter  (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/192/pollinator_potentential_0301.tif.cog",
+          "colormap_name": "ylorbr_r",
+          "rescale": "0,1",
+          "bidx": 1,
+          "minzoom": "0"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "ylorbr_r",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_honningbie_Oslobyg": {
+      "name": "Honningbie frie soner (BYM)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_air_pollution_0301": {
+      "name": "Luftforurensing (NILU)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/194/air_pollution_0301.tif.cog",
+          "colormap_name": "rdylgn_r",
+          "rescale": "0,0.5",
+          "bidx": 1,
+          "minzoom": "0"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "rdylgn_r",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_surface_runoff_0301": {
+      "name": "Overflateavrenning (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/198/surface_runoff_0301.tif.cog",
+          "colormap_name": "ice",
+          "rescale": "0,1",
+          "bidx": 1,
+          "minzoom": "0"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "ice",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_tree_cluster_accessibility_0301": {
+      "name": "Tilgjengelig areal av større treklynger (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/200/tree_cluster_accessibility_0301.tif.cog",
+          "colormap_name": "rdylgn",
+          "rescale": "0,1",
+          "bidx": 1,
+          "minzoom": "0"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "rdylgn",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_tree_crowns_0301": {
+      "name": "Trekroner (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_roads_spill_over_20mm_0301": {
+      "name": "Veier-avrenning 20mm (Københavns Universitet)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_roads_spill_over_50mm_0301": {
+      "name": "Veier-avrenning 50mm (Københavns Universitet)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "group-52": {
+      "name": "Økosystemtjenester",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "15216100_friluftslivomrader_verdi_oslo_0301",
+        "15216100_tree_visual_exposure_0301"
+      ]
+    },
+    "15216100_friluftslivomrader_verdi_oslo_0301": {
+      "name": "Friluftslivområder verdi (Oslo kommune)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_tree_visual_exposure_0301": {
+      "name": "Trekronesynlighet (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/201/tree_visual_exposure_0301.tif.cog",
+          "minzoom": "0",
+          "colormap_name": "greens",
+          "rescale": "0,1",
+          "bidx": 1
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "greens",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "group-50": {
+      "name": "Utbredelsen",
+      "type": "folder",
+      "description": "",
+      "children": [
+        "15216100_nibio_arealregnskap_grunnkart_0000",
+        "15216100_nedbygging_oslo_0301",
+        "15216100_parks_0301"
+      ]
+    },
+    "15216100_nibio_arealregnskap_grunnkart_0000": {
+      "name": "Grunnkart for bruk i arealregnskap (Geonorge)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_nedbygging_oslo_0301": {
+      "name": "Nedbyggingsarealer (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_parks_0301": {
+      "name": "Parker (Oslo kommune)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_school_distance_0301": {
+      "name": "Avstand til skoler (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/195/school_distance_0301.tif.cog",
+          "colormap_name": "rdpu_r",
+          "rescale": "0,1",
+          "bidx": 1,
+          "minzoom": "0"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "rdpu_r",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_bee_free_zones_0301": {
+      "name": "Honning bie frie soner (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": ""
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_tree_visibility_potential_0301": {
+      "name": "Potensiel for trekronesynlighet (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/199/tree_visibility_potential_0301.tif.cog",
+          "minzoom": "0",
+          "colormap_name": "rdbu_r",
+          "rescale": "0,1",
+          "bidx": 1
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "rdbu_r",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "15216100_connectivity_trees_0301": {
+      "name": "Trekorridorer (NINA)",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://pycsw.nina.no/media/maps/sources/191/connectivity_trees_0301.tif.cog",
+          "colormap_name": "greens",
+          "rescale": "0,1",
+          "bidx": 1,
+          "minzoom": "0"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "greens",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    },
+    "osm": {
+      "name": "osm",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Low",
+          "max": "High"
+        }
+      }
+    }
+  },
+  "config": {
+    "titiler_api_url": "/titiler",
+    "theme": "nina",
+    "language": "en",
+    "footer": {
+      "items": [
+        "![](https://maps.nina.no/assets/logowhite-6HSLYLYZ.png)",
+        "Norsk institutt for naturforskning - [www.nina.no](https://www.nina.no)"
+      ],
+      "justify": "justify-between",
+      "align": "items-baseline"
+    }
+  }
+}

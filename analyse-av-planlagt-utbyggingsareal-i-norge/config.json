@@ -1,0 +1,301 @@
+{
+  "id": "analyse-av-planlagt-utbyggingsareal-i-norge",
+  "title": "Analyse av planlagt utbyggingsareal i Norge",
+  "subtitle": "Norkart, 2025",
+  "description": "Norkart har har vinteren 2025 undersøkt hvor store arealer som er avsatt til framtidig utbygging i gjeldende arealplaner etter plan- og bygningsloven, men som ikke er bygget ut. Disse områdene kalles arealreserver for utbygging eller planlagt utbyggingsareal. I analysen er det benyttet oppdaterte, offisielle og offentlig tilgjengelige data for kommunale arealplaner etter plan- og bygningsloven for å estimere arealreserver for utbygging. Resultatet er et geografisk datasett som indikerer planlagte, men ikke utbygde, utbyggingsområder i kommunene. Datasettet inneholder resultater fra planlegging på flere detaljnivåer fra detaljerte reguleringsplaner til oversiktsplaner (kommuneplanens arealdel).\n\nAt et område er identifisert som utbyggingsareal, betyr ikke nødvendigvis at det vil bli utbygd, men at det i gjeldende plan er regulert og per i dag ikke er bebygd.\n\nMetoden som er benyttet i prosjektet er utviklet i forskningsprosjektet Operasjon Planvask (Forskningsrådets prosjektnummer Prosjektnummer: 349492). Dette prosjektet er innovasjonsprosjekt i offentlig sektor, og er et samarbeid mellom Larvik kommune, Holth & Winge AS, Norsk institutt for naturforskning, OsloMet og Norkart AS.\n\nMetode og resultater er beskrevet i rapporten: [Olsson, J., Palkhanov, I., & Boge, B. (2025). Analyse av planlagt utbyggingsareal i Norge. Norkart-rapport N-4020|2025](https://norkart.no/hubfs/norkart.no/Rapporter/2025-Norkart-Rapport-N-4020-Planlagt-Utbyggingsareal-i-Norge.pdf?hsLang=no).\n\nEn tideligere analyse, med data fra 2023 finnes her: [Planlagt utbyggingsareal i Norge](https://maps.nina.no/planlagt-utbyggingsareal-i-norge).",
+  "icon": "https://maps.nina.no/assets/logosmall-BFfoJdyr.png",
+  "baseMap": "positron",
+  "layerOrder": [
+    "bolig-eller-sentrumsformal",
+    "fritidsbebyggelse",
+    "tjenesteyting",
+    "handel",
+    "turistformaal",
+    "naeringsvirksomhet",
+    "raastoffutvinning",
+    "kombinerte-formaal",
+    "idrettsanlegg",
+    "havner-og-smaabaathavner"
+  ],
+  "viewState": {
+    "longitude": 17.8,
+    "latitude": 65.6,
+    "zoom": 4
+  },
+  "expandedItems": [
+    "utbyggingsomraader",
+    "basemaps"
+  ],
+  "items": {
+    "root": {
+      "name": "Layers",
+      "type": "folder",
+      "children": [
+        "utbyggingsomraader",
+        "basemaps"
+      ]
+    },
+    "utbyggingsomraader": {
+      "name": "Planlagt utbyggingsareal",
+      "type": "folder",
+      "children": [
+        "bolig-eller-sentrumsformal",
+        "fritidsbebyggelse",
+        "tjenesteyting",
+        "handel",
+        "turistformaal",
+        "naeringsvirksomhet",
+        "raastoffutvinning",
+        "kombinerte-formaal",
+        "idrettsanlegg",
+        "havner-og-smaabaathavner"
+      ]
+    },
+    "basemaps": {
+      "name": "Grunnkart",
+      "type": "folder",
+      "children": [
+        "naturnvern"
+      ]
+    },
+    "bolig-eller-sentrumsformal": {
+      "name": "Bolig eller sentrumsformål",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "01 Bolig eller sentrumsformål",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#e4e637",
+              "opacity": 1,
+              "description": "Bolig eller sentrumsformål"
+            }
+          }
+        }
+      }
+    },
+    "fritidsbebyggelse": {
+      "name": "Fritidsbebyggelse",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "02 Fritidsbebyggelse",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#f9cd48",
+              "opacity": 1,
+              "description": "Fritidsbebyggelse"
+            }
+          }
+        }
+      }
+    },
+    "tjenesteyting": {
+      "name": "Tjenesteyting",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "03 Tjenesteyting",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#f56e99",
+              "opacity": 1,
+              "description": "Tjenesteyting"
+            }
+          }
+        }
+      }
+    },
+    "handel": {
+      "name": "Handel",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "04 Handel",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#9c9afb",
+              "opacity": 1,
+              "description": "Handel"
+            }
+          }
+        }
+      }
+    },
+    "turistformaal": {
+      "name": "Turistformål",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "05 Turistformål",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#676697",
+              "opacity": 1,
+              "description": "Turistformål"
+            }
+          }
+        }
+      }
+    },
+    "naeringsvirksomhet": {
+      "name": "Næringsvirksomhet",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "06 Næringsvirksomhet",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#9668c9",
+              "opacity": 1,
+              "description": "Næringsvirksomhet"
+            }
+          }
+        }
+      }
+    },
+    "raastoffutvinning": {
+      "name": "Råstoffutvinning",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "07 Råstoffutvinning",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#a66969",
+              "opacity": 1,
+              "description": "Råstoffutvinning"
+            }
+          }
+        }
+      }
+    },
+    "kombinerte-formaal": {
+      "name": "Kombinerte formål",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "08 Kombinerte formål",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#946817",
+              "opacity": 1,
+              "description": "Kombinerte formål"
+            }
+          }
+        }
+      }
+    },
+    "idrettsanlegg": {
+      "name": "Idrettsanlegg",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "09 Idrettsanlegg",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#ffc4cc",
+              "opacity": 1,
+              "description": "Idrettsanlegg"
+            }
+          }
+        }
+      }
+    },
+    "havner-og-smaabaathavner": {
+      "name": "Havner og småbåthavner",
+      "type": "layer",
+      "layer": {
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+        },
+        "children": {
+          "source-layer": "16 Havner og småbåthavner",
+          "type": "fill",
+          "legend": {
+            "default": {
+              "color": "#71afb0",
+              "opacity": 1,
+              "description": "Havner og småbåthavner"
+            }
+          }
+        }
+      }
+    },
+    "naturnvern": {
+      "name": "Naturnvern",
+      "type": "layer",
+      "layer": {
+        "type": "titiler",
+        "titiler": {
+          "url": "https://kart.miljodirektoratet.no/arcgis/services/vern/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&LAYERS=naturvern_omrade&STYLES=&FORMAT=image%2Fpng&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi%3A96&TRANSPARENT=TRUE&BBOX={bbox-epsg-3857}"
+        },
+        "legend": {
+          "type": "linear",
+          "colormap_name": "viridis",
+          "min": "Beskyttet",
+          "max": "Ubeskyttet"
+        }
+      }
+    }
+  },
+  "config": {
+    "titiler_api_url": "/titiler",
+    "theme": "nina",
+    "language": "no",
+    "footer": {
+      "items": [
+        "![](https://maps.nina.no/assets/logowhite-6HSLYLYZ.png)",
+        "Norsk institutt for naturforskning - [www.nina.no](https://www.nina.no)"
+      ],
+      "justify": "justify-between",
+      "align": "items-baseline"
+    }
+  }
+}
