@@ -2,7 +2,7 @@
   "id": "NorwegianEcologicalNetworks",
   "title": "Norwegian Ecological Networks",
   "subtitle": "",
-  "description": "Denne kartportalen presenterer habitat konnektivitetskart for norske arter. I portalen får du oversikt over alle kart som viser arters egnede habitater, funksjonelle kjerneområder og sammenheng mellom dem (korridorer/ konnektivitet). I noen tilfeller (f.eks. trær) vises tilkobling også med hensyn til fremtidige rekkevidder, under scenarier for klimaendringer.&nbsp;\n\nKartene er resultater av statistiske modeller basert på tilgjengelige data for arten og deres habitat. Tilnærmingen, resultatene og vitenskapelige publikasjonene er syntetisert &nbsp;Tilnærmingen, resultatene og vitenskapelige publikasjonene er syntetisert på disse nettsidene (1. https://konnektivitetskart.nina.no 2. https://www.nina.no/Naturmangfold/Hjortedyr/reindeermapsnorway ) &nbsp;og i de følgende rapportene : Panzacchi et al 2024, 2022; Stange et al 2019; van Moorter er al 2023). Statistiske modeller gjør det mulig å vurdere betydningen av alle områder i Norge for arten, også der data mangler, og å simulere artens respons på endringer i habitat, grad av forstyrrelse eller klima (se her).&nbsp;\n\nDisse kartene er relevante når man for eksempel skal identifisere områder som skal prioriteres for bevaring, restaurering eller avbøtende tiltak, ved planlegging av endringer i arealbruk eller utbygging, eller når man skal vurdere effekten av den samlede belastningen av menneskelig aktivitet, inkludert klimaendringer.\n\nDisse kartene er utviklet innenfor prosjektet GreenPlan og relaterte prosjekter, som utvikler både kart og nettbaserte analyseverktøy for å støtte bærekraftig arealplanlegging (se prototype analyseverktøy her)",
+  "description": "Denne kartportalen presenterer habitat konnektivitetskart for norske arter. I portalen får du oversikt over alle kart som viser arters egnede habitater, funksjonelle kjerneområder og sammenheng mellom dem (korridorer/konnektivitet). I noen tilfeller (f.eks. trær) vises tilkobling også med hensyn til fremtidige rekkevidder, under scenarier for klimaendringer.\n\nKartene er resultater av statistiske modeller basert på tilgjengelige data for arten og deres habitat. Tilnærmingen, resultatene og vitenskapelige publikasjonene er syntetisert på disse nettsidene:\n\n1. [https://konnektivitetskart.nina.no](https://konnektivitetskart.nina.no)\n2. [https://www.nina.no/Naturmangfold/Hjortedyr/reindeermapsnorway](https://www.nina.no/Naturmangfold/Hjortedyr/reindeermapsnorway)\n\nsamt i de følgende rapportene:\n\n* [Panzacchi et al. 2024](https://hdl.handle.net/11250/3124860)\n* [2022](https://brage.nina.no/nina-xmlui/handle/11250/3031987)\n* [Stange et al. 2019](https://brage.nina.no/nina-xmlui/handle/11250/2598222)\n* [van Moorter et al. 2023](https://brage.nina.no/nina-xmlui/handle/11250/3107550)\n\nStatistiske modeller gjør det mulig å vurdere betydningen av alle områder i Norge for arten, også der data mangler, og å simulere artens respons på endringer i habitat, grad av forstyrrelse eller klima ([se her](https://sites.google.com/view/reindeermapsnorway/scenario-analyses)).\n\nDisse kartene er relevante når man for eksempel skal identifisere områder som skal prioriteres for bevaring, restaurering eller avbøtende tiltak, ved planlegging av endringer i arealbruk eller utbygging, eller når man skal vurdere effekten av den samlede belastningen av menneskelig aktivitet, inkludert klimaendringer.\n\nDisse kartene er utviklet innenfor prosjektet [GreenPlan](https://www.nina.no/english/Sustainable-society/GreenPlan) og relaterte prosjekter, som utvikler både kart og nettbaserte analyseverktøy for å støtte bærekraftig arealplanlegging ([se prototype analyseverktøy her](https://sites.google.com/view/greeninfrastructureapp/home)).",
   "icon": "https://pycsw.nina.no/media/maps/logo/NorwegianEcologicalNetworks/Logo_GreenPlan_no.png",
   "baseMap": "positron",
   "layerOrder": [],
@@ -13,13 +13,16 @@
   },
   "expandedItems": [
     "group-24",
-    "group-28",
-    "group-33",
-    "group-30",
-    "group-27",
+    "group-25",
     "group-26",
+    "group-27",
+    "group-28",
+    "group-29",
+    "group-30",
     "group-31",
     "group-32",
+    "group-33",
+    "group-34",
     "group-35",
     "group-36",
     "group-37",
@@ -56,13 +59,13 @@
     "group-27": {
       "name": "Villrein",
       "type": "folder",
-      "description": "Se kart her.\n\n\r\nReferanse og modellbeskrivelse: Panzacchi, M., van Moorter, B., Tveraa, T., Rolandsen, C. M., Gundersen, V., Lelotte, L., A., Dos Santos, B. B. N., Bøthun, S. W., Stien, A., Andersen, R., Strand, O. 2022. Statistisk modellering av samlet belastning av menneskelig aktivitet på villreinområder. Identifisering av viktige leveområder og scenarioanalyser for konsekvensutredning og arealplanlegging. NINA Rapport 2189.)",
+      "description": "Se kart [her](https://www.nina.no/Naturmangfold/Hjortedyr/reindeermapsnorway).\n\nReferanse og modellbeskrivelse: [Panzacchi, M., van Moorter, B., Tveraa, T., Rolandsen, C. M., Gundersen, V., Lelotte, L., A., Dos Santos, B. B. N., Bøthun, S. W., Stien, A., Andersen, R., Strand, O. 2022. Statistisk modellering av samlet belastning av menneskelig aktivitet på villreinområder. Identifisering av viktige leveområder og scenarioanalyser for konsekvensutredning og arealplanlegging. NINA Rapport 2189.](https://brage.nina.no/nina-xmlui/handle/11250/3031987)",
       "children": []
     },
     "group-26": {
       "name": "Elg",
       "type": "folder",
-      "description": "Referanse og modellbeskrivelse: [Kap 3, Panzacchi, M., van Moorter, B., Sydenham, M.A.K., Horntvedt Thorsen, N., Niebuhr, B.B., Stange, E., Jansson, U., Nordén, B, Hofgaard, A., Rusch, G., Rolandsen, C. & Solberg E. 2024.  Nasjonal kartlegging av grønn infrastruktur. De første nasjonale kartene for solitære bier, elg, edellauvskog og andre treslag. NINA Rapport 2371. Norsk institutt for naturforskning)](https://hdl.handle.net/11250/3124860)",
+      "description": "Referanse og modellbeskrivelse: [Kap 3, Panzacchi, M., van Moorter, B., Sydenham, M.A.K., Horntvedt Thorsen, N., Niebuhr, B.B., Stange, E., Jansson, U., Nordén, B, Hofgaard, A., Rusch, G., Rolandsen, C. & Solberg E. 2024. Nasjonal kartlegging av grønn infrastruktur. De første nasjonale kartene for solitære bier, elg, edellauvskog og andre treslag. NINA Rapport 2371. Norsk institutt for naturforskning](https://hdl.handle.net/11250/3124860)",
       "children": [
         "elg-egnehabitat",
         "elg_permeabilitet_norway_2023_100m_original",
@@ -85,9 +88,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -106,9 +110,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "gray",
-          "min": "Low",
-          "max": "High"
+          "min": "Barriere for spredning",
+          "max": "Liten motstand"
         }
       }
     },
@@ -127,9 +132,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -148,9 +154,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -165,7 +172,7 @@
     "group-29": {
       "name": "Solitær bier",
       "type": "folder",
-      "description": "Referanse og modellbeskrivelse: [Kap 5, Panzacchi, M., van Moorter, B., Sydenham, M.A.K., Horntvedt Thorsen, N., Niebuhr, B.B., Stange, E., Jansson, U., Nordén, B, Hofgaard, A., Rusch, G., Rolandsen, C. & Solberg E. 2024.  Nasjonal kartlegging av grønn infrastruktur. De første nasjonale kartene for solitære bier, elg, edellauvskog og andre treslag. NINA Rapport 2371. Norsk institutt for naturforskning)](https://hdl.handle.net/11250/3124860)",
+      "description": "Referanse og modellbeskrivelse: [Kap 5, Panzacchi, M., van Moorter, B., Sydenham, M.A.K., Horntvedt Thorsen, N., Niebuhr, B.B., Stange, E., Jansson, U., Nordén, B, Hofgaard, A., Rusch, G., Rolandsen, C. & Solberg E. 2024. Nasjonal kartlegging av grønn infrastruktur. De første nasjonale kartene for solitære bier, elg, edellauvskog og andre treslag. NINA Rapport 2371. Norsk institutt for naturforskning](https://hdl.handle.net/11250/3124860)",
       "children": [
         "Solitaerebier_habitatkvalitet",
         "Solitaerebier_permeabilitet",
@@ -188,9 +195,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -209,9 +217,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "gray",
-          "min": "Low",
-          "max": "High"
+          "min": "Barriere for spredning",
+          "max": "Liten motstand"
         }
       }
     },
@@ -230,9 +239,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -251,9 +261,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -268,7 +279,7 @@
     "group-34": {
       "name": "Edellauvskog",
       "type": "folder",
-      "description": "Referanse og modellbeskrivelse: [Kap 4, Panzacchi, M., van Moorter, B., Sydenham, M.A.K., Horntvedt Thorsen, N., Niebuhr, B.B., Stange, E., Jansson, U., Nordén, B, Hofgaard, A., Rusch, G., Rolandsen, C. & Solberg E. 2024.  Nasjonal kartlegging av grønn infrastruktur. De første nasjonale kartene for solitære bier, elg, edellauvskog og andre treslag. NINA Rapport 2371. Norsk institutt for naturforskning)](https://hdl.handle.net/11250/3124860)",
+      "description": "Referanse og modellbeskrivelse: [Kap 4, Panzacchi, M., van Moorter, B., Sydenham, M.A.K., Horntvedt Thorsen, N., Niebuhr, B.B., Stange, E., Jansson, U., Nordén, B, Hofgaard, A., Rusch, G., Rolandsen, C. & Solberg E. 2024. Nasjonal kartlegging av grønn infrastruktur. De første nasjonale kartene for solitære bier, elg, edellauvskog og andre treslag. NINA Rapport 2371. Norsk institutt for naturforskning](https://hdl.handle.net/11250/3124860)",
       "children": [
         "syntekart",
         "Edellauvskog_habitatkvalitet_2010",
@@ -293,9 +304,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -314,9 +326,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -335,9 +348,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -356,9 +370,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -377,9 +392,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -398,9 +414,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -453,9 +470,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -474,9 +492,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -495,9 +514,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -516,9 +536,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -537,9 +558,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -558,9 +580,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -592,9 +615,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -613,9 +637,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -634,9 +659,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -655,9 +681,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -676,9 +703,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -697,9 +725,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -731,9 +760,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -752,9 +782,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -773,9 +804,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -794,9 +826,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -815,9 +848,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -836,9 +870,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -870,9 +905,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -891,9 +927,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -912,9 +949,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -933,9 +971,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -954,9 +993,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -975,9 +1015,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -1009,9 +1050,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1030,9 +1072,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1051,9 +1094,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -1072,9 +1116,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1093,9 +1138,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1114,9 +1160,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -1148,9 +1195,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1169,9 +1217,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1190,9 +1239,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -1211,9 +1261,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1232,9 +1283,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1253,9 +1305,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -1287,9 +1340,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1308,9 +1362,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1329,9 +1384,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -1350,9 +1406,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1371,9 +1428,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1392,9 +1450,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -1426,9 +1485,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1447,9 +1507,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1468,9 +1529,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -1489,9 +1551,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1510,9 +1573,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1531,9 +1595,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -1565,9 +1630,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1586,9 +1652,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1607,9 +1674,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -1628,9 +1696,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1649,9 +1718,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1670,9 +1740,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -1704,9 +1775,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1725,9 +1797,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1746,9 +1819,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -1767,9 +1841,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1788,9 +1863,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1809,9 +1885,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -1843,9 +1920,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1864,9 +1942,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -1885,9 +1964,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "rdbu_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Reduksjon",
+          "max": "Økning"
         }
       }
     },
@@ -1906,9 +1986,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1927,9 +2008,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -1948,9 +2030,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -1993,9 +2076,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -2014,9 +2098,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "greens",
-          "min": "Low",
-          "max": "High"
+          "min": "Uegnet / forstyrret",
+          "max": "God, egnet habitat"
         }
       }
     },
@@ -2035,9 +2120,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -2056,9 +2142,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -2077,9 +2164,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "magma",
-          "min": "Low",
-          "max": "High"
+          "min": "Lite forflytning",
+          "max": "Korridor / viktig forbindelse"
         }
       }
     },
@@ -2096,9 +2184,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -2115,9 +2204,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -2131,9 +2221,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     },
@@ -2147,9 +2238,10 @@
         },
         "legend": {
           "type": "linear",
+          "orientation": "vertical",
           "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+          "min": "Høy (god kvalitet og godt tilkoblet)",
+          "max": "Dårlig / samlet belastning"
         }
       }
     }
