@@ -272,15 +272,13 @@
       "name": "Naturnvern",
       "type": "layer",
       "layer": {
-        "type": "titiler",
-        "titiler": {
-          "url": "https://kart.miljodirektoratet.no/arcgis/services/vern/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&LAYERS=naturvern_omrade&STYLES=&FORMAT=image%2Fpng&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi%3A96&TRANSPARENT=TRUE&BBOX={bbox-epsg-3857}"
-        },
+        "type": "raster",
+        "tiles": [
+          "https://kart.miljodirektoratet.no/arcgis/services/vern/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3857&WIDTH=256&HEIGHT=256&LAYERS=naturvern_omrade&STYLES=&FORMAT=image%2Fpng&DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi%3A96&TRANSPARENT=TRUE&BBOX={bbox-epsg-3857}"
+        ],
         "legend": {
-          "type": "linear",
-          "colormap_name": "viridis",
-          "min": "Beskyttet",
-          "max": "Ubeskyttet"
+          "type": "image",
+          "url": "https://kart.miljodirektoratet.no/arcgis/services/vern/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=naturvern_omrade&STYLE=&FORMAT=image%2Fpng&TRANSPARENT=TRUE"
         }
       }
     }
