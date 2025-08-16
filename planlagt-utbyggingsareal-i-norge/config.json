@@ -31,13 +31,13 @@
       "name": "Layers",
       "type": "folder",
       "children": [
-        "main-layers",
-        "basemaps"
+        "main-layers"
       ]
     },
     "main-layers": {
-      "name": "Planlagt utbyggingsareal i Norge",
+      "name": "Layers",
       "type": "folder",
+      "download_url": "https://pycsw.nina.no/media/maps/sources/Planlagt-Utbygging2023_0000_Norge_25833_GPKG.gpkg",
       "children": [
         "bolig-eller-sentrumsformal",
         "fritidsbebyggelse",
@@ -49,13 +49,6 @@
         "kombinerte-formal",
         "forsvaret",
         "havner-og-smabathavner"
-      ]
-    },
-    "basemaps": {
-      "name": "Base layers",
-      "type": "folder",
-      "children": [
-        "openstreetmap"
       ]
     },
     "bolig-eller-sentrumsformal": {
@@ -265,22 +258,6 @@
               "description": "Havner og småbåthavner"
             }
           }
-        }
-      }
-    },
-    "openstreetmap": {
-      "name": "OpenStreetMap",
-      "type": "layer",
-      "layer": {
-        "type": "titiler",
-        "titiler": {
-          "url": "https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
-        },
-        "legend": {
-          "type": "linear",
-          "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
         }
       }
     }
