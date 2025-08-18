@@ -2,7 +2,7 @@
   "id": "localEA",
   "title": "Kartportal for Finskala Naturregnskap",
   "subtitle": "Local Ecosystem Accounts",
-  "description": "## Kartportal for Finskala Naturregnskap\n\nKartportalen tilbyr en omfattende oversikt over ulike naturregnskapsprosjekter i NINA. Hvert prosjekt er kategorisert etter spesifikke kartlag, som er organisert i henhold til komponentene i naturregnskapsrammeverket:\n\n- Økosystemtjenester (*Ecosystem Services*)\n- Utbredelsen (*Ecosystem Extent*)\n- Økologisk tilstand (*Ecosystem Condition*)\n- Andre temakart (*Misc.*)",
+  "description": "### Kartportal for Finskala Naturregnskap\n\nKartportalen tilbyr en omfattende oversikt over ulike naturregnskapsprosjekter i NINA. Hvert prosjekt er kategorisert etter spesifikke kartlag, som er organisert i henhold til komponentene i naturregnskapsrammeverket:\n\n* Økosystemtjenester (*Ecosystem Services*)\n* Utbredelsen (*Ecosystem Extent*)\n* Økologisk tilstand (*Ecosystem Condition*)\n* Andre temakart (*Misc.*)",
   "icon": "https://maps.nina.no/assets/logosmall-BFfoJdyr.png",
   "baseMap": "positron",
   "layerOrder": [],
@@ -49,6 +49,7 @@
     "15216100_population_density_district_0301": {
       "name": "Befolkningstetthet per grunnkrestser (SBB)",
       "type": "layer",
+      "description": "#### Description\n\nLaget viser befolkningstettheten per grunnkrets.\n\n**Tags:** *grunnkart*\n\n#### Temporal scope\n\n**Aquisition period:** *2022*\n\n#### Geographic scope\n\nOslobyggesonen\n\n**Location:** *Norge, \r\n Oslo, \r\n Oslo (0301\\)* \n\n#### Taxonomic scope\n\n#### Methodology\n\n* **Acquisition method:** other\n* **Unit:** pers/km2\n* **Measuring scale:**\n* **Platform:**\n* **Sensor:**\n* **Spatial resolution:** 1\n* **Temporal resolution:**\n\n#### Data description\n\n* **Project ID:** nina\\-15216100\n* **Data type:** raster\n* **File type:** GeoTIFF\n* **Dataset name:** population\\_density\\_district\\_0301\n* **Dataset alias:** Befolkningstetthet per grunnkrestser (SBB)\n* **Ecosystem accounting category:** misc.\n* **License:** CC\\-BY 4\\.0\n* **Data language:**\n* **Metadata language:** Bokmål, Norwegian\n* **Dataset owner:** NINA\n* **Dataset manager:** Maria Korkou\n\n#### Contacts\n\n* **David Barton**\n\t+ **Role:** project leader\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [david.barton@nina.no](mailto:david.barton@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0002\\-6501\\-9381](https://orcid.org/https://orcid.org/0000-0002-6501-9381)\n* **Maria Korkou**\n\t+ **Role:** data manager\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [maria.korkou@nina.no](mailto:maria.korkou@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-5766\\-9109](https://orcid.org/https://orcid.org/0000-0001-5766-9109)\n* **Willeke A'Campo**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [willeke.acampo@nina.no](mailto:willeke.acampo@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-8723\\-3832](https://orcid.org/https://orcid.org/0000-0001-8723-3832)\n* **Sunniva Bahlk**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [sunniva.bahlk@gmail.com](mailto:sunniva.bahlk@gmail.com)\n\t+ **Orcid:** <https://orcid.org/None>\n\n#### Citation",
       "layer": {
         "type": "titiler",
         "titiler": {
@@ -68,6 +69,7 @@
     },
     "15216100_neighbourhoods_0301": {
       "name": "Bydeler (PBE)",
+      "description": "#### Description\n\n“Oslo Bydeler byggesonen grensere” viser grensene for byggesonen fordelt på bydelene i Oslo. Den nåværende bydelsinndelingen består av 15 bydeler, i tillegg til Sentrum og Marka. Hver bydel fungerer som en administrativ enhet i Oslo kommune.\n\n**Tags:** *grunnkart*\n\n#### Temporal scope\n\n**Aquisition period:** *2016*\n\n#### Geographic scope\n\nOslobyggesonen\n\n**Location:** *Norge, \r\n Oslo, \r\n Oslo (0301\\)* \n\n#### Taxonomic scope\n\n#### Methodology\n\n* **Acquisition method:** other\n* **Unit:** m2\n* **Measuring scale:**\n* **Platform:**\n* **Sensor:**\n* **Spatial resolution:**\n* **Temporal resolution:**\n\n#### Data description\n\n* **Project ID:** nina\\-15216100\n* **Data type:** vector\n* **File type:** gpkg\n* **Dataset name:** neighbourhoods\\_0301\n* **Dataset alias:** Bydeler (PBE)\n* **Ecosystem accounting category:** misc.\n* **License:** CC\\-BY 4\\.0\n* **Data language:**\n* **Metadata language:** Bokmål, Norwegian\n* **Dataset owner:** PBE\n* **Dataset manager:** Maria Korkou\n\n#### Contacts\n\n* **David Barton**\n\t+ **Role:** project leader\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [david.barton@nina.no](mailto:david.barton@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0002\\-6501\\-9381](https://orcid.org/https://orcid.org/0000-0002-6501-9381)\n* **Maria Korkou**\n\t+ **Role:** data manager\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [maria.korkou@nina.no](mailto:maria.korkou@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-5766\\-9109](https://orcid.org/https://orcid.org/0000-0001-5766-9109)\n* **Willeke A'Campo**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [willeke.acampo@nina.no](mailto:willeke.acampo@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-8723\\-3832](https://orcid.org/https://orcid.org/0000-0001-8723-3832)\n* **Sunniva Bahlk**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [sunniva.bahlk@gmail.com](mailto:sunniva.bahlk@gmail.com)\n\t+ **Orcid:** <https://orcid.org/None>\n\n#### Citation",
       "type": "layer",
       "layer": {
         "type": "titiler",
@@ -84,17 +86,104 @@
     },
     "15216100_urban_form_blocks_0301": {
       "name": "Bymorfologitypologiklassifisering for blokker (NINA)",
+      "description": "#### Description\n\nKlassifisering av bymorfologi organiserer urbane kvartaler i fem hovedgrupper, som hver er delt inn i to nært beslektede undergrupper. Ved hjelp av en maskinlæringsbasert GIS\\-kartleggingsprosess gjør denne tilnærmingen det mulig å identifisere distinkte urbane morfologityper på tvers av byområder.\n\n**Tags:** *grunnkart*\n\n#### Temporal scope\n\n**Aquisition period:** *2022*\n\n#### Geographic scope\n\nOslobyggesonen\n\n**Location:** *Norge, \n Oslo, \n Oslo (0301\\)* \n\n#### Taxonomic scope\n\n#### Methodology\n\n* **Acquisition method:** other\n* **Unit:** m2\n* **Measuring scale:**\n* **Platform:**\n* **Sensor:**\n* **Spatial resolution:**\n* **Temporal resolution:**\n\n#### Data description\n\n* **Project ID:** nina\\-15216100\n* **Data type:** vector\n* **File type:** gpkg\n* **Dataset name:** urban\\_form\\_blocks\\_0301\n* **Dataset alias:** Bymorfologitypologiklassifisering for blokker (NINA)\n* **Ecosystem accounting category:** misc.\n* **License:**\n* **Data language:**\n* **Metadata language:** Bokmål, Norwegian\n* **Dataset owner:** NINA\n* **Dataset manager:** Maria Korkou\n\n#### Contacts\n\n* **David Barton**\n\t+ **Role:** project leader\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [david.barton@nina.no](mailto:david.barton@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0002\\-6501\\-9381](https://orcid.org/https://orcid.org/0000-0002-6501-9381)\n* **Maria Korkou**\n\t+ **Role:** data manager\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [maria.korkou@nina.no](mailto:maria.korkou@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-5766\\-9109](https://orcid.org/https://orcid.org/0000-0001-5766-9109)\n* **Willeke A'Campo**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [willeke.acampo@nina.no](mailto:willeke.acampo@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-8723\\-3832](https://orcid.org/https://orcid.org/0000-0001-8723-3832)\n* **Sunniva Bahlk**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [sunniva.bahlk@gmail.com](mailto:sunniva.bahlk@gmail.com)\n\t+ **Orcid:** <https://orcid.org/None>\n\n#### Citation",
       "type": "layer",
+      "download_url": "https://pycsw.nina.no/media/maps/sources/187/urban_form_blocks_0301.gpkg",
       "layer": {
-        "type": "titiler",
-        "titiler": {
-          "url": ""
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/187/SPARE_misc.gpkg.pmtiles"
         },
-        "legend": {
-          "type": "linear",
-          "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+        "children": {
+          "type": "fill",
+          "source-layer": "urban_form_blocks_0301",
+          "legend": {
+            "default": {
+              "color": "rgba(153, 153, 153, 1)",
+              "description": "Other",
+              "opacity": 0.75
+            },
+            "field": "class_1st",
+            "values": [
+              {
+                "color": "rgba(139, 211, 199, 1)",
+                "description": " 0 Ubebygd tomt",
+                "value": 0,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "opacity": 0.75
+              },
+              {
+                "color": "rgba(154, 217, 46, 1)",
+                "value": 1,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "description": " 1 Frittstående bygninger, lav % bebygd areal",
+                "opacity": 0.75
+              },
+              {
+                "color": "rgba(202, 237, 168, 1)",
+                "value": 2,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "opacity": 0.75,
+                "description": "2 Villaområde"
+              },
+              {
+                "color": "rgba(255, 238, 101, 1)",
+                "value": 3,
+                "opacity": 0.75,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "description": "3 Rekkehus"
+              },
+              {
+                "color": "rgba(92, 241, 255, 1)",
+                "value": 4,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "opacity": 0.75,
+                "description": "4 Lameller blokker"
+              },
+              {
+                "color": "rgba(41, 103, 227, 1)",
+                "value": 5,
+                "opacity": 0.75,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "description": "5 Frittstående bygninger, middelshøy % bebygd areal"
+              },
+              {
+                "color": "rgba(253, 237, 206, 1)",
+                "value": 6,
+                "opacity": 0.75,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "description": "6 Delvis lukket bebyggelsesstruktur"
+              },
+              {
+                "color": "rgba(227, 154, 45, 1)",
+                "value": 7,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "opacity": 0.75,
+                "description": "7  Karrébebyggelse, middelshøy % bebygd areal"
+              },
+              {
+                "color": "rgba(217, 84, 17, 1)",
+                "value": 8,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "opacity": 0.75,
+                "description": "8 Karrébebyggelse, høy % bebygd areal"
+              },
+              {
+                "color": "rgba(234, 197, 236, 1)",
+                "value": 9,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "opacity": 0.75,
+                "description": "9 Komplekse bygningsformer, middelshøy % bebygd areal"
+              },
+              {
+                "color": "rgba(212, 19, 199, 1)",
+                "value": 10,
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "opacity": 0.75,
+                "description": "10 Komplekse bygningsformer, høy % bebygd areal"
+              }
+            ]
+          }
         }
       }
     },
