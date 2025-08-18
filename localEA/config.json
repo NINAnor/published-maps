@@ -200,16 +200,68 @@
     "15216100_friluftslivomrader_0301": {
       "name": "Friluftslivområder (Oslo kommune)",
       "type": "layer",
+      "description": "#### Description\n\nOmråder som er kartlagt og verdsatt av kommunen for allmennhetens friluftsliv.\n\n**Tags:** *grunnkart*\n\n#### Temporal scope\n\n\\*\n\n**Aquisition period:** *\\**\n\n#### Geographic scope\n\nOslobyggesonen\n\n**Location:** *Norge, \r\n Oslo, \r\n Oslo (302\\)* \n\n#### Taxonomic scope\n\n#### Methodology\n\n\\*\n\n* **Acquisition method:** other\n* **Unit:**\n* **Measuring scale:**\n* **Platform:**\n* **Sensor:**\n* **Spatial resolution:**\n* **Temporal resolution:**\n\n#### Data description\n\n* **Project ID:** nina\\-15216100\n* **Data type:** vector\n* **File type:** gpkg\n* **Dataset name:** friluftslivomrader\\_0301\n* **Dataset alias:** Friluftslivområder (Oslo kommune)\n* **Ecosystem accounting category:** misc.\n* **License:** CC\\-BY 4\\.0\n* **Data language:**\n* **Metadata language:** Bokmål, Norwegian\n* **Dataset owner:** Miljodirektoratet\n* **Dataset manager:** Maria Korkou\n\n#### Contacts\n\n* **David Barton**\n\t+ **Role:** project leader\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [david.barton@nina.no](mailto:david.barton@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0002\\-6501\\-9381](https://orcid.org/https://orcid.org/0000-0002-6501-9381)\n* **Maria Korkou**\n\t+ **Role:** data manager\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [maria.korkou@nina.no](mailto:maria.korkou@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-5766\\-9109](https://orcid.org/https://orcid.org/0000-0001-5766-9109)\n* **Willeke A'Campo**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [willeke.acampo@nina.no](mailto:willeke.acampo@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-8723\\-3832](https://orcid.org/https://orcid.org/0000-0001-8723-3832)\n* **Sunniva Bahlk**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [sunniva.bahlk@gmail.com](mailto:sunniva.bahlk@gmail.com)\n\t+ **Orcid:** <https://orcid.org/None>\n\n#### Citation",
+      "download_url": "https://pycsw.nina.no/media/maps/sources/202/friluftslivomrader_0301.gpkg",
       "layer": {
-        "type": "titiler",
-        "titiler": {
-          "url": ""
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/202/SPARE_misc.gpkg.pmtiles"
         },
-        "legend": {
-          "type": "linear",
-          "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+        "children": {
+          "type": "fill",
+          "source-layer": "friluftslivomrader_0301",
+          "legend": {
+            "default": {
+              "color": "rgba(35, 176, 16, 1)",
+              "description": "Andre friluftslivsområder",
+              "borderColor": "rgba(153, 153, 153, 1)"
+            },
+            "field": "områdetyp",
+            "values": [
+              {
+                "color": "rgba(205, 94, 230, 1)",
+                "description": "Grønn korridor",
+                "value": "grønnKorridor",
+                "borderColor": "rgba(153, 153, 153, 1)"
+              },
+              {
+                "color": "rgba(252, 146, 31, 1)",
+                "description": "Jordbrukslandskap",
+                "value": "jordbrukslandskap",
+                "borderColor": "rgba(153, 153, 153, 1)"
+              },
+              {
+                "color": "rgba(245, 230, 64, 1)",
+                "value": "lekeOgRekreasjonsområde",
+                "description": "Leke Og rekreasjonsområde",
+                "borderColor": "rgba(153, 153, 153, 1)"
+              },
+              {
+                "color": "rgba(54, 85, 196, 1)",
+                "value": "nærturterreng",
+                "description": "Nærturterreng",
+                "borderColor": "rgba(153, 153, 153, 1)"
+              },
+              {
+                "color": "rgba(235, 0, 203, 1)",
+                "value": "stortTurområdeMedTilrettelegging",
+                "description": "Stort turområde med tilrettelegging",
+                "borderColor": "rgba(153, 153, 153, 1)"
+              },
+              {
+                "color": "rgba(121, 69, 6, 1)",
+                "value": "strandsoneMedTilhørendeSjøOgVassdrag",
+                "description": "strandsone Med Tilhørende Sjø Og Vassdrag",
+                "borderColor": "rgba(153, 153, 153, 1)"
+              },
+              {
+                "color": "rgba(92, 87, 92, 1)",
+                "borderColor": "rgba(153, 153, 153, 1)",
+                "value": "utfartsområde",
+                "description": "Utfartsområde"
+              }
+            ]
+          }
         }
       }
     },
