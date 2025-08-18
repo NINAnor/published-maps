@@ -71,16 +71,23 @@
       "name": "Bydeler (PBE)",
       "description": "#### Description\n\n“Oslo Bydeler byggesonen grensere” viser grensene for byggesonen fordelt på bydelene i Oslo. Den nåværende bydelsinndelingen består av 15 bydeler, i tillegg til Sentrum og Marka. Hver bydel fungerer som en administrativ enhet i Oslo kommune.\n\n**Tags:** *grunnkart*\n\n#### Temporal scope\n\n**Aquisition period:** *2016*\n\n#### Geographic scope\n\nOslobyggesonen\n\n**Location:** *Norge, \r\n Oslo, \r\n Oslo (0301\\)* \n\n#### Taxonomic scope\n\n#### Methodology\n\n* **Acquisition method:** other\n* **Unit:** m2\n* **Measuring scale:**\n* **Platform:**\n* **Sensor:**\n* **Spatial resolution:**\n* **Temporal resolution:**\n\n#### Data description\n\n* **Project ID:** nina\\-15216100\n* **Data type:** vector\n* **File type:** gpkg\n* **Dataset name:** neighbourhoods\\_0301\n* **Dataset alias:** Bydeler (PBE)\n* **Ecosystem accounting category:** misc.\n* **License:** CC\\-BY 4\\.0\n* **Data language:**\n* **Metadata language:** Bokmål, Norwegian\n* **Dataset owner:** PBE\n* **Dataset manager:** Maria Korkou\n\n#### Contacts\n\n* **David Barton**\n\t+ **Role:** project leader\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [david.barton@nina.no](mailto:david.barton@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0002\\-6501\\-9381](https://orcid.org/https://orcid.org/0000-0002-6501-9381)\n* **Maria Korkou**\n\t+ **Role:** data manager\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [maria.korkou@nina.no](mailto:maria.korkou@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-5766\\-9109](https://orcid.org/https://orcid.org/0000-0001-5766-9109)\n* **Willeke A'Campo**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [willeke.acampo@nina.no](mailto:willeke.acampo@nina.no)\n\t+ **Orcid:** [https://orcid.org/https://orcid.org/0000\\-0001\\-8723\\-3832](https://orcid.org/https://orcid.org/0000-0001-8723-3832)\n* **Sunniva Bahlk**\n\t+ **Role:** participant\n\t+ **Organisation:** Norsk institutt for naturforskning\n\t+ **Email:** [sunniva.bahlk@gmail.com](mailto:sunniva.bahlk@gmail.com)\n\t+ **Orcid:** <https://orcid.org/None>\n\n#### Citation",
       "type": "layer",
+      "download_url": "https://pycsw.nina.no/media/maps/sources/183/neighbourhoods_0301.gpkg",
       "layer": {
-        "type": "titiler",
-        "titiler": {
-          "url": ""
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://pycsw.nina.no/media/maps/sources/187/SPARE_misc.gpkg.pmtiles"
         },
-        "legend": {
-          "type": "linear",
-          "colormap_name": "viridis",
-          "min": "Low",
-          "max": "High"
+        "attribution": "PBE",
+        "children": {
+          "type": "line",
+          "source-layer": "neighbourhoods_0301",
+          "legend": {
+            "default": {
+              "color": "rgba(139, 0, 0, 1)",
+              "description": "Bydeler (PBE, 2016)",
+              "dasharray": "2,2"
+            }
+          }
         }
       }
     },
