@@ -88,7 +88,10 @@
             "default": {
               "color": "rgba(139, 0, 0, 1)",
               "description": "Bydeler (PBE, 2016)",
-              "dasharray": "2,2"
+              "dasharray": [
+                2,
+                2
+              ]
             }
           }
         }
