@@ -55,15 +55,18 @@
         "titiler": {
           "url": "https://pycsw.nina.no/media/maps/sources/188/population_density_district_0301.tif.cog",
           "colormap_name": "ylorbr_r",
-          "rescale": "0,1",
+          "rescale": [
+            "0,1"
+          ],
           "bidx": 1,
           "minzoom": "0"
         },
         "legend": {
           "type": "linear",
           "colormap_name": "ylorbr_r",
-          "min": "Low",
-          "max": "High"
+          "min": "Lav (0)",
+          "max": "Høy (1)",
+          "direction": "vertical"
         }
       }
     },
