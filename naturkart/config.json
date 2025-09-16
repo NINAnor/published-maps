@@ -3,7 +3,7 @@
   "title": "Kartlegging av natur i Norge",
   "subtitle": "Modellbaserte kart av forekomster og korridorer for arter og økosystemer i Norge.",
   "description": "Modellbaserte kart av forekomster og korridorer for arter og økosystemer:\n\n\r\nVåre kart viser forekomster av arter og økosystemer, egnethet for leveområder og tilknytningskorridorer ved hjelp av ulike modelleringsteknikker. Dette inkluderer modeller for artsdistribusjon, nettverksbaserte konnektivitetsmodeller og maskinlæring anvendt på fjernmålingsdata. Valget av modelleringsrammeverk avhenger av den spesifikke oppgaven, og derfor tilbyr vi kartspesifikk dokumentasjon tilpasset ulike brukergrupper.\n\n\r\nFor norske forvaltningsinteressenter tilbyr vi dokumentasjon på norsk i samsvar med GeoNorge-templaten. Dette sikrer klarhet og relevans for lokale forvaltningsformål. I tillegg tilbyr vi detaljert dokumentasjon på engelsk for det vitenskapelige samfunnet, i tråd med Oversikt, Data, Modell, Vurdering og Prediksjon (ODMAP)-protokollen som er beskrevet av Zurell m.fl. (2020). Denne protokollen fungerer som et standardisert rammeverk for omfattende vitenskapelig dokumentasjon, som legger til rette for gjennomsiktighet og reproduksjonsevne i vår metodikk.\n\n\r\nVed å tilpasse oss både lokale forvaltningsbehov og vitenskapelige standarder, fungerer våre kart som verdifulle verktøy for informert beslutningstaking og økologisk forskning.\n\n\r\nFor mer informasjon, vennligst se [Zurell m.fl. (2020)](https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.04960) og vår spesifikke dokumentasjon for hvert kart.",
-  "icon": "https://pycsw.nina.no/media/maps/logo/naturkart/NINAmap_logo.png",
+  "icon": "https://s3-ext-1.nina.no/miljodata-maps/maps/logo/naturkart/NINAmap_logo.png",
   "baseMap": "positron",
   "layerOrder": [],
   "viewState": {
@@ -79,7 +79,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/89/elg_egnethabitat_norway_2023_100m.tif_sMKeeGK.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/89/elg_egnethabitat_norway_2023_100m.tif_sMKeeGK.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -100,7 +100,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/92/elg_permeabilitet_norway_2023_100m.tif_O5UTsL5.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/92/elg_permeabilitet_norway_2023_100m.tif_O5UTsL5.cog",
           "bidx": 1,
           "colormap_name": "gray",
           "algorithm": "stravaclahe",
@@ -121,7 +121,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/90/elg_funksjonellehabitat_norway_2023_100m.tif_sugmUcY.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/90/elg_funksjonellehabitat_norway_2023_100m.tif_sugmUcY.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -142,7 +142,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/91/elg_korridorer_norway_2023_100m.tif_H1OW1fJ.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/91/elg_korridorer_norway_2023_100m.tif_H1OW1fJ.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -182,7 +182,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/147/Solitaerebier_habitatkvalitet.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/147/Solitaerebier_habitatkvalitet.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -203,7 +203,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/149/Solitaerebier_permeabilitet.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/149/Solitaerebier_permeabilitet.tif.cog",
           "bidx": 1,
           "colormap_name": "gray",
           "algorithm": "stravaclahe",
@@ -224,7 +224,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/150/Solitaerebier_SQRTlandskapetsfunksjonalitet.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/150/Solitaerebier_SQRTlandskapetsfunksjonalitet.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -245,7 +245,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/148/Solitaerebier_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/148/Solitaerebier_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -300,7 +300,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/94/Edellauvskog_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/94/Edellauvskog_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -321,7 +321,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/95/Edellauvskog_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/95/Edellauvskog_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu",
           "algorithm": "stravaclahe",
@@ -342,7 +342,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/98/Edellauvskog_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/98/Edellauvskog_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -363,7 +363,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/96/Edellauvskog_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/96/Edellauvskog_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",

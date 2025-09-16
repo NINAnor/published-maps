@@ -49,7 +49,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
         },
         "children": {
           "source-layer": "2018",
@@ -70,7 +70,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
         },
         "children": {
           "source-layer": "2019",
@@ -91,7 +91,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
         },
         "children": {
           "source-layer": "2020",
@@ -112,7 +112,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
         },
         "children": {
           "source-layer": "2021",
@@ -133,7 +133,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
         },
         "children": {
           "source-layer": "2022",
@@ -154,7 +154,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
         },
         "children": {
           "source-layer": "2023",
@@ -175,7 +175,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/209/nedbygging_norge_2017_2024.pmtiles"
         },
         "children": {
           "source-layer": "2024",

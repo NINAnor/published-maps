@@ -64,7 +64,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "01 Bolig eller sentrumsformål",
@@ -85,7 +85,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "02 Fritidsbebyggelse",
@@ -106,7 +106,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "03 Tjenesteyting",
@@ -127,7 +127,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "04 Handel",
@@ -148,7 +148,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "05 Turistformål",
@@ -169,7 +169,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "06 Næringsvirksomhet",
@@ -190,7 +190,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "07 Råstoffutvinning",
@@ -211,7 +211,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "08 Kombinerte formål",
@@ -232,7 +232,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "09 Idrettsanlegg",
@@ -253,7 +253,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/210/arealreserve-layers.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/210/arealreserve-layers.pmtiles"
         },
         "children": {
           "source-layer": "16 Havner og småbåthavner",

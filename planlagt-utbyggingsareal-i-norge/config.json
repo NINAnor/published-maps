@@ -37,7 +37,7 @@
     "main-layers": {
       "name": "Layers",
       "type": "folder",
-      "download_url": "https://pycsw.nina.no/media/maps/sources/Planlagt-Utbygging2023_0000_Norge_25833_GPKG.gpkg",
+      "download_url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/Planlagt-Utbygging2023_0000_Norge_25833_GPKG.gpkg",
       "children": [
         "bolig-eller-sentrumsformal",
         "fritidsbebyggelse",
@@ -57,7 +57,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/29/01_Bolig_eller_sentrumsform%C3%A5l.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/29/01_Bolig_eller_sentrumsform%C3%A5l.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -78,7 +78,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/30/02_Fritidsbebyggelse.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/30/02_Fritidsbebyggelse.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -99,7 +99,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/31/03_Tjenesteyting.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/31/03_Tjenesteyting.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -120,7 +120,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/32/04_Handel.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/32/04_Handel.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -141,7 +141,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/33/05_Turistform%C3%A5l.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/33/05_Turistform%C3%A5l.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -162,7 +162,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/34/06_N%C3%A6ringsvirksomhet.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/34/06_N%C3%A6ringsvirksomhet.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -183,7 +183,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/35/07_R%C3%A5stoffutvinning.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/35/07_R%C3%A5stoffutvinning.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -204,7 +204,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/36/08_Kombinerte_form%C3%A5l.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/36/08_Kombinerte_form%C3%A5l.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -225,7 +225,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/37/13_Forsvaret.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/37/13_Forsvaret.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",
@@ -246,7 +246,7 @@
       "layer": {
         "type": "pmtiles",
         "pmtiles": {
-          "url": "https://pycsw.nina.no/media/maps/sources/38/16_Havner_og_sm%C3%A5b%C3%A5thavner.pmtiles"
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/38/16_Havner_og_sm%C3%A5b%C3%A5thavner.pmtiles"
         },
         "children": {
           "source-layer": "Planlagt-Utbygging2023",

@@ -3,7 +3,7 @@
   "title": "Norwegian Ecological Networks",
   "subtitle": "",
   "description": "Denne kartportalen presenterer habitat konnektivitetskart for norske arter. I portalen får du oversikt over alle kart som viser arters egnede habitater, funksjonelle kjerneområder og sammenheng mellom dem (korridorer/konnektivitet). I noen tilfeller (f.eks. trær) vises tilkobling også med hensyn til fremtidige rekkevidder, under scenarier for klimaendringer.\n\nKartene er resultater av statistiske modeller basert på tilgjengelige data for arten og deres habitat. Tilnærmingen, resultatene og vitenskapelige publikasjonene er syntetisert på disse nettsidene:\n\n1. [https://konnektivitetskart.nina.no](https://konnektivitetskart.nina.no)\n2. [https://www.nina.no/Naturmangfold/Hjortedyr/reindeermapsnorway](https://www.nina.no/Naturmangfold/Hjortedyr/reindeermapsnorway)\n\nsamt i de følgende rapportene:\n\n* [Panzacchi et al. 2024](https://hdl.handle.net/11250/3124860)\n* [2022](https://brage.nina.no/nina-xmlui/handle/11250/3031987)\n* [Stange et al. 2019](https://brage.nina.no/nina-xmlui/handle/11250/2598222)\n* [van Moorter et al. 2023](https://brage.nina.no/nina-xmlui/handle/11250/3107550)\n\nStatistiske modeller gjør det mulig å vurdere betydningen av alle områder i Norge for arten, også der data mangler, og å simulere artens respons på endringer i habitat, grad av forstyrrelse eller klima ([se her](https://sites.google.com/view/reindeermapsnorway/scenario-analyses)).\n\nDisse kartene er relevante når man for eksempel skal identifisere områder som skal prioriteres for bevaring, restaurering eller avbøtende tiltak, ved planlegging av endringer i arealbruk eller utbygging, eller når man skal vurdere effekten av den samlede belastningen av menneskelig aktivitet, inkludert klimaendringer.\n\nDisse kartene er utviklet innenfor prosjektet [GreenPlan](https://www.nina.no/english/Sustainable-society/GreenPlan) og relaterte prosjekter, som utvikler både kart og nettbaserte analyseverktøy for å støtte bærekraftig arealplanlegging ([se prototype analyseverktøy her](https://sites.google.com/view/greeninfrastructureapp/home)).",
-  "icon": "https://pycsw.nina.no/media/maps/logo/NorwegianEcologicalNetworks/Logo_GreenPlan_no.png",
+  "icon": "https://s3-ext-1.nina.no/miljodata-maps/maps/logo/NorwegianEcologicalNetworks/Logo_GreenPlan_no.png",
   "baseMap": "positron",
   "layerOrder": [],
   "viewState": {
@@ -79,7 +79,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/89/elg_egnethabitat_norway_2023_100m.tif_sMKeeGK.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/89/elg_egnethabitat_norway_2023_100m.tif_sMKeeGK.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -101,7 +101,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/92/elg_permeabilitet_norway_2023_100m.tif_O5UTsL5.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/92/elg_permeabilitet_norway_2023_100m.tif_O5UTsL5.cog",
           "bidx": 1,
           "colormap_name": "gray",
           "algorithm": "stravaclahe",
@@ -123,7 +123,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/90/elg_funksjonellehabitat_norway_2023_100m.tif_sugmUcY.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/90/elg_funksjonellehabitat_norway_2023_100m.tif_sugmUcY.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -145,7 +145,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/91/elg_korridorer_norway_2023_100m.tif_H1OW1fJ.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/91/elg_korridorer_norway_2023_100m.tif_H1OW1fJ.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -186,7 +186,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/147/Solitaerebier_habitatkvalitet.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/147/Solitaerebier_habitatkvalitet.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -208,7 +208,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/149/Solitaerebier_permeabilitet.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/149/Solitaerebier_permeabilitet.tif.cog",
           "bidx": 1,
           "colormap_name": "gray",
           "algorithm": "stravaclahe",
@@ -230,7 +230,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/150/Solitaerebier_SQRTlandskapetsfunksjonalitet.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/150/Solitaerebier_SQRTlandskapetsfunksjonalitet.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -252,7 +252,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/148/Solitaerebier_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/148/Solitaerebier_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -295,7 +295,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/181/syntekart.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/181/syntekart.tif.cog",
           "bidx": 1,
           "maxzoom": 22,
           "rescale": [
@@ -317,7 +317,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/93/Edellauvskog_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/93/Edellauvskog_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -339,7 +339,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/94/Edellauvskog_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/94/Edellauvskog_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -361,7 +361,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/97/Edellauvskog_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/97/Edellauvskog_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -383,7 +383,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/98/Edellauvskog_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/98/Edellauvskog_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -405,7 +405,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/96/Edellauvskog_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/96/Edellauvskog_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -461,7 +461,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/106/Acerplatanoides_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/106/Acerplatanoides_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -483,7 +483,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/107/Acerplatanoides_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/107/Acerplatanoides_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -505,7 +505,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/108/Acerplatanoides_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/108/Acerplatanoides_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -527,7 +527,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/104/Acerplatanoides_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/104/Acerplatanoides_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -549,7 +549,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/105/Acerplatanoides_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/105/Acerplatanoides_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -571,7 +571,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/109/Acerplatanoides_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/109/Acerplatanoides_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -606,7 +606,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/129/Fagussylvatica_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/129/Fagussylvatica_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -628,7 +628,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/130/Fagussylvatica_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/130/Fagussylvatica_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -650,7 +650,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/131/Fagussylvatica_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/131/Fagussylvatica_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -672,7 +672,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/133/Fagussylvatica_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/133/Fagussylvatica_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -694,7 +694,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/134/Fagussylvatica_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/134/Fagussylvatica_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -716,7 +716,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/132/Fagussylvatica_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/132/Fagussylvatica_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -751,7 +751,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/135/Fraxinusexcelsior_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/135/Fraxinusexcelsior_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -773,7 +773,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/136/Fraxinusexcelsior_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/136/Fraxinusexcelsior_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -795,7 +795,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/137/Fraxinusexcelsior_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/137/Fraxinusexcelsior_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -817,7 +817,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/139/Fraxinusexcelsior_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/139/Fraxinusexcelsior_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -839,7 +839,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/140/Fraxinusexcelsior_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/140/Fraxinusexcelsior_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -861,7 +861,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/138/Fraxinusexcelsior_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/138/Fraxinusexcelsior_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -896,7 +896,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/171/Tiliacordata_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/171/Tiliacordata_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -918,7 +918,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/172/Tiliacordata_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/172/Tiliacordata_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -940,7 +940,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/173/Tiliacordata_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/173/Tiliacordata_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -962,7 +962,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/175/Tiliacordata_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/175/Tiliacordata_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -984,7 +984,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/176/Tiliacordata_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/176/Tiliacordata_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1006,7 +1006,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/174/Tiliacordata_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/174/Tiliacordata_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -1041,7 +1041,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/151/Ulmusglabra_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/151/Ulmusglabra_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1063,7 +1063,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/152/Ulmusglabra_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/152/Ulmusglabra_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1085,7 +1085,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/153/Ulmusglabra_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/153/Ulmusglabra_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -1107,7 +1107,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/155/Ulmusglabra_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/155/Ulmusglabra_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1129,7 +1129,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/156/Ulmusglabra_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/156/Ulmusglabra_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1151,7 +1151,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/154/Ulmusglabra_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/154/Ulmusglabra_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -1186,7 +1186,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/141/Salixcaprea_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/141/Salixcaprea_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1208,7 +1208,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/142/Salixcaprea_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/142/Salixcaprea_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1230,7 +1230,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/143/Salixcaprea_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/143/Salixcaprea_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -1252,7 +1252,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/145/Salixcaprea_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/145/Salixcaprea_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1274,7 +1274,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/146/Salixcaprea_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/146/Salixcaprea_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1296,7 +1296,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/144/Salixcaprea_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/144/Salixcaprea_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -1331,7 +1331,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/165/Populustremula_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/165/Populustremula_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1353,7 +1353,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/166/Populustremula_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/166/Populustremula_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1375,7 +1375,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/167/Populustremula_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/167/Populustremula_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -1397,7 +1397,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/169/Populustremula_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/169/Populustremula_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1419,7 +1419,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/170/Populustremula_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/170/Populustremula_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1441,7 +1441,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/168/Populustremula_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/168/Populustremula_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -1476,7 +1476,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/123/Betulapubescens_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/123/Betulapubescens_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1498,7 +1498,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/124/Betulapubescens_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/124/Betulapubescens_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1520,7 +1520,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/125/Betulapubescens_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/125/Betulapubescens_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -1542,7 +1542,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/127/Betulapubescens_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/127/Betulapubescens_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1564,7 +1564,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/128/Betulapubescens_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/128/Betulapubescens_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1586,7 +1586,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/126/Betulapubescens_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/126/Betulapubescens_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -1621,7 +1621,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/117/Betulapendula_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/117/Betulapendula_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1643,7 +1643,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/118/Betulapendula_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/118/Betulapendula_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1665,7 +1665,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/119/Betulapendula_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/119/Betulapendula_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -1687,7 +1687,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/121/Betulapendula_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/121/Betulapendula_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1709,7 +1709,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/122/Betulapendula_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/122/Betulapendula_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1731,7 +1731,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/120/Betulapendula_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/120/Betulapendula_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -1766,7 +1766,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/159/Pinussylvestris_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/159/Pinussylvestris_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1788,7 +1788,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/160/Pinussylvestris_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/160/Pinussylvestris_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1810,7 +1810,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/161/Pinussylvestris_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/161/Pinussylvestris_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -1832,7 +1832,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/163/Pinussylvestris_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/163/Pinussylvestris_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1854,7 +1854,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/164/Pinussylvestris_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/164/Pinussylvestris_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1876,7 +1876,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/162/Pinussylvestris_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/162/Pinussylvestris_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -1911,7 +1911,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/99/Piceaabies_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/99/Piceaabies_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1933,7 +1933,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/100/Piceaabies_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/100/Piceaabies_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -1955,7 +1955,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/158/Piceaabies_habitatkvalitet_endring.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/158/Piceaabies_habitatkvalitet_endring.tif.cog",
           "bidx": 1,
           "colormap_name": "rdbu_r",
           "algorithm": "masked-rescale",
@@ -1977,7 +1977,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/102/Piceaabies_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/102/Piceaabies_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -1999,7 +1999,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/103/Piceaabies_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/103/Piceaabies_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -2021,7 +2021,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/101/Piceaabies_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/101/Piceaabies_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -2067,7 +2067,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/110/Acerpseudoplatanus_habitatkvalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/110/Acerpseudoplatanus_habitatkvalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -2089,7 +2089,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/111/Acerpseudoplatanus_habitatkvalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/111/Acerpseudoplatanus_habitatkvalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "greens",
           "algorithm": "stravaclahe",
@@ -2111,7 +2111,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/114/Acerpseudoplatanus_landskapetsfunksjonalitet_2010.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/114/Acerpseudoplatanus_landskapetsfunksjonalitet_2010.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -2133,7 +2133,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/115/Acerpseudoplatanus_landskapetsfunksjonalitet_2100.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/115/Acerpseudoplatanus_landskapetsfunksjonalitet_2100.tif.cog",
           "bidx": 1,
           "colormap_name": "viridis",
           "algorithm": "stravaclahe",
@@ -2155,7 +2155,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/113/Acerpseudoplatanus_korridorer.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/113/Acerpseudoplatanus_korridorer.tif.cog",
           "bidx": 1,
           "colormap_name": "magma",
           "algorithm": "stravaclahe",
@@ -2177,7 +2177,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/178/Edellauvskog_syntesekartklimaendringer_RGBA.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/178/Edellauvskog_syntesekartklimaendringer_RGBA.tif.cog",
           "bidx": 1,
           "maxzoom": 22,
           "rescale": "0,255"
@@ -2197,7 +2197,7 @@
       "layer": {
         "type": "titiler",
         "titiler": {
-          "url": "https://pycsw.nina.no/media/maps/sources/177/Edellauvskog_syntesekartklimaendringer_RGB.tif.cog",
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/177/Edellauvskog_syntesekartklimaendringer_RGB.tif.cog",
           "bidx": 1,
           "maxzoom": 22,
           "rescale": "0,255"
