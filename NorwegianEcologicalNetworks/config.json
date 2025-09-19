@@ -2254,7 +2254,7 @@
     "exclusiveLayers": true,
     "footer": {
       "items": [
-        "![](https://maps.nina.no/assets/logowhite-6HSLYLYZ.png)",
+        "![](https://s3-ext-1.nina.no/miljodata-maps/maps/logowhite-6HSLYLYZ.png)",
         "Norsk institutt for naturforskning - [www.nina.no](https://www.nina.no)"
       ],
       "justify": "justify-between",

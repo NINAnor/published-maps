@@ -3,7 +3,7 @@
   "title": "Planlagt utbyggingsareal i Norge",
   "subtitle": "Indikasjon på mulig framtidig utbyggingsareal i kommunale arealplaner etter plan- og bygningsloven",
   "description": "NINA har i samarbeid med Nordfjord EDB, NIBIO og Agder Fylkeskommune undersøkt hvor store arealer som er avsatt til framtidig utbygging i gjeldende arealplaner etter plan- og bygningsloven, men som ikke enda er bygget ut. Disse områdene kaller vi arealreserver for utbygging. Vi har brukt oppdaterte, offisielle og offentlig tilgjengelige data for kommunale arealplaner etter plan- og bygningsloven for å estimere arealreserver for utbygging. Resultatet er et geografisk datasett som indikerer planlagte, men ikke utbygde, utbyggingsområder i kommunene. Datasettet inneholder resultater fra planlegging på flere detaljnivåer fra detaljerte reguleringsplaner til oversiktsplaner (kommuneplanens arealdel). Oversikten gjelder kategoriene bolig, fritidsbolig og næringsformål. Kategoriene samferdsel, idrettsanlegg og energianlegg er ikke inkludert i kartet.\n\nKartet er basert på digitale plandata i Geonorge. Det er stor variasjon mellom kommunene i alder og kvalitet på slike plandata. Kartet må derfor oppfattes som en usikker indikasjon på hvor planlagt utbyggingsareal finnes. Kartet kan forbedres med bedre og mer oppdaterte data fra kommunene. For det enkelte område er det alltid kommunen som har oversikt over gjeldende planstatus og tillatt arealbruk.\n\nMetode og resultater er beskrevet i [NINA Rapport 2310 Planlagt utbyggingsareal i Norge](https://hdl.handle.net/11250/3085779).\n\n\r\nVi er kjent med at datasettet inneholder enkelte feil og mangler. \r\nNy og forbedret versjon vil publiseres i 2024.",
-  "icon": "https://maps.nina.no/assets/logosmall-BFfoJdyr.png",
+  "icon": "https://s3-ext-1.nina.no/miljodata-maps/maps/logosmall-BFfoJdyr.png",
   "baseMap": "positron",
   "layerOrder": [
     "bolig-eller-sentrumsformal",
@@ -268,7 +268,7 @@
     "language": "en",
     "footer": {
       "items": [
-        "![](https://maps.nina.no/assets/logowhite-6HSLYLYZ.png)",
+        "![](https://s3-ext-1.nina.no/miljodata-maps/maps/logowhite-6HSLYLYZ.png)",
         "Norsk institutt for naturforskning - [www.nina.no](https://www.nina.no)"
       ],
       "justify": "justify-between",

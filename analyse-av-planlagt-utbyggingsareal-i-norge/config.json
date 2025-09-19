@@ -3,7 +3,7 @@
   "title": "Analyse av planlagt utbyggingsareal i Norge",
   "subtitle": "Norkart, 2025",
   "description": "Norkart har har vinteren 2025 undersøkt hvor store arealer som er avsatt til framtidig utbygging i gjeldende arealplaner etter plan- og bygningsloven, men som ikke er bygget ut. Disse områdene kalles arealreserver for utbygging eller planlagt utbyggingsareal. I analysen er det benyttet oppdaterte, offisielle og offentlig tilgjengelige data for kommunale arealplaner etter plan- og bygningsloven for å estimere arealreserver for utbygging. Resultatet er et geografisk datasett som indikerer planlagte, men ikke utbygde, utbyggingsområder i kommunene. Datasettet inneholder resultater fra planlegging på flere detaljnivåer fra detaljerte reguleringsplaner til oversiktsplaner (kommuneplanens arealdel).\n\nAt et område er identifisert som utbyggingsareal, betyr ikke nødvendigvis at det vil bli utbygd, men at det i gjeldende plan er regulert og per i dag ikke er bebygd.\n\nMetoden som er benyttet i prosjektet er utviklet i forskningsprosjektet Operasjon Planvask (Forskningsrådets prosjektnummer Prosjektnummer: 349492). Dette prosjektet er innovasjonsprosjekt i offentlig sektor, og er et samarbeid mellom Larvik kommune, Holth & Winge AS, Norsk institutt for naturforskning, OsloMet og Norkart AS.\n\nMetode og resultater er beskrevet i rapporten: [Olsson, J., Palkhanov, I., & Boge, B. (2025). Analyse av planlagt utbyggingsareal i Norge. Norkart-rapport N-4020|2025](https://norkart.no/hubfs/norkart.no/Rapporter/2025-Norkart-Rapport-N-4020-Planlagt-Utbyggingsareal-i-Norge.pdf?hsLang=no).\n\nEn tideligere analyse, med data fra 2023 finnes her: [Planlagt utbyggingsareal i Norge](https://maps.nina.no/planlagt-utbyggingsareal-i-norge).",
-  "icon": "https://maps.nina.no/assets/logosmall-BFfoJdyr.png",
+  "icon": "https://s3-ext-1.nina.no/miljodata-maps/maps/logosmall-BFfoJdyr.png",
   "baseMap": "positron",
   "layerOrder": [
     "bolig-eller-sentrumsformal",
@@ -289,7 +289,7 @@
     "language": "no",
     "footer": {
       "items": [
-        "![](https://maps.nina.no/assets/logowhite-6HSLYLYZ.png)",
+        "![](https://s3-ext-1.nina.no/miljodata-maps/maps/logowhite-6HSLYLYZ.png)",
         "Norsk institutt for naturforskning - [www.nina.no](https://www.nina.no)"
       ],
       "justify": "justify-between",

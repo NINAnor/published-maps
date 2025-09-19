@@ -3,7 +3,7 @@
   "title": "Built-up expansion over Norway 2017-2024",
   "subtitle": "Map of built-up expansion (\"nedbygging\") over Norway 2017-2024 with year of loss",
   "description": "The data contains polygons outlining potential \"nedbygging\" (hereafter translated to \"built-up expansion\" in English) events between 2017 and 2024 over Norway. The built-up expansion polygons were identified using a combination of Sentinel-2 satellite imagery, a fully convolutional neural network (a type of AI model) from Google called [Dynamic World](https://dynamicworld.app/) and NINA's time series analysis thereof. The method to create the map will be published by NINA at a later date. It is important to note that the map is a result of AI and has errors in it. Therefore, users are encouraged to read the sections on data quality and usage information below. Users can refer to [Venter et al. (2024)](https://www.sciencedirect.com/science/article/pii/S2212041624000056) for details on the scientific best practice which the NRK journalists followed to ensure that their reported area estimates in the article were not biased. There are also many instances of built-up expansion which will be missed in the map such as forestry road development, building of small cabins etc.\n\nOriginal dataset available at [zenodo.org/records/15130992](https://zenodo.org/records/15130992).",
-  "icon": "https://maps.nina.no/assets/logosmall-BFfoJdyr.png",
+  "icon": "https://s3-ext-1.nina.no/miljodata-maps/maps/logosmall-BFfoJdyr.png",
   "baseMap": "positron",
   "layerOrder": [
     "nedbygging-norge-2018",
@@ -197,7 +197,7 @@
     "language": "en",
     "footer": {
       "items": [
-        "![](https://maps.nina.no/assets/logowhite-6HSLYLYZ.png)",
+        "![](https://s3-ext-1.nina.no/miljodata-maps/maps/logowhite-6HSLYLYZ.png)",
         "Norsk institutt for naturforskning - [www.nina.no](https://www.nina.no)"
       ],
       "justify": "justify-between",
