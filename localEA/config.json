@@ -767,13 +767,164 @@
       "description": "#### Description\n\nDet er en testversjon av et grunnkart til bruk i arealregnskap. Datasettet er en sammenstilling av arealressurs- og arealbruksdata. I tillegg er det lagt inn \u00f8kosysteminformasjon i henhold til Eurostats klassifiseringssystem, samt informasjon om gr\u00f8nnstruktur i bebygde omr\u00e5der.\n\n**Tags:** _arealregnskap_\n\n#### Temporal scope\n\n\n\n**Aquisition period:** _2024_\n\n#### Geographic scope\n\nOslobyggesonen\n\n**Location:** _Norge, Oslo, Oslo (0301)_\n\n#### Taxonomic scope\n\n\n\n\n\n#### Methodology\n\n\n\n\n  \n- **Acquisition method:** other\n- **Unit:** m2\n- **Measuring scale:** \n- **Platform:** \n- **Sensor:** \n- **Spatial resolution:** \n- **Temporal resolution:** \n  \n\n#### Data description\n\n- **Project ID:** nina-15216100\n- **Data type:** vector\n- **File type:** OGC-WMS\n- **Dataset name:** nibio_arealregnskap_grunnkart_0000\n- **Dataset alias:** Grunnkart for bruk i arealregnskap (Geonorge)\n- **Ecosystem accounting category:** extent\n- **License:** CC-BY 4.0\n- **Data language:** \n- **Metadata language:** Bokm\u00e5l, Norwegian\n- **Dataset owner:** NIBIO\n- **Dataset manager:** Maria Korkou\n\n#### Contacts\n\n\n**David Barton**\n\n- **Role:** project leader\n- **Organisation:** Norsk institutt for naturforskning\n- **Email:** [david.barton@nina.no](mailto:david.barton@nina.no)\n- **Orcid:** [https://orcid.org/0000-0002-6501-9381](https://orcid.org/0000-0002-6501-9381)\n\n\n**Maria Korkou**\n\n- **Role:** data manager\n- **Organisation:** Norsk institutt for naturforskning\n- **Email:** [maria.korkou@nina.no](mailto:maria.korkou@nina.no)\n- **Orcid:** [https://orcid.org/0000-0001-5766-9109](https://orcid.org/0000-0001-5766-9109)\n\n\n**Willeke A'Campo**\n\n- **Role:** participant\n- **Organisation:** Norsk institutt for naturforskning\n- **Email:** [willeke.acampo@nina.no](mailto:willeke.acampo@nina.no)\n- **Orcid:** [https://orcid.org/0000-0001-8723-3832](https://orcid.org/0000-0001-8723-3832)\n\n\n**Sunniva Bahlk**\n\n- **Role:** participant\n- **Organisation:** Norsk institutt for naturforskning\n- **Email:** [sunniva.bahlk@gmail.com](mailto:sunniva.bahlk@gmail.com)\n- **Orcid:** [None](None)\n\n\n\n#### Citation",
       "type": "layer",
       "layer": {
-        "type": "raster",
-        "tiles": [
-          "https://wms.nibio.no/cgi-bin/arealregnskap_grunnkart?layers=okosystemtype&bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256"
-        ],
-        "legend": {
-          "type": "image",
-          "url": "https://wms.nibio.no/cgi-bin/arealregnskap_grunnkart?layer=okosystemtype&language=nor&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&format=image/png&STYLE=default"
+        "type": "pmtiles",
+        "pmtiles": {
+          "url": "https://s3-ext-1.nina.no/miljodata-maps/maps/sources/arealregnskap_clip.pmtiles"
+        },
+        "attribution": "Geonorge",
+        "children": {
+          "type": "fill",
+          "source-layer": "arealregnskap_clip",
+          "legend": {
+            "default": {
+              "color": "rgb(170, 170, 170)",
+              "description": "Other",
+              "borderColor": "rgba(153, 153, 153, 0.25)"
+            },
+            "field": "okosys",
+            "values": [
+              {
+                "color": "rgba(168, 0, 0, 1)",
+                "value": "1.1.2",
+                "description": "Sammenhengende bebyggelse"
+              },
+              {
+                "color": "rgba(168, 0, 0, 1)",
+                "value": "1.1.1",
+                "description": "Sammenhengende bebyggelse"
+              },
+              {
+                "color": "rgba(255, 190, 190, 1)",
+                "value": "1.2.1",
+                "description": "Spredt bebyggelse"
+              },
+              {
+                "color": "rgba(255, 170, 0, 1)",
+                "value": "1.3.2",
+                "description": "Transport og annen infrastruktur"
+              },
+              {
+                "color": "rgba(255, 170, 0, 1)",
+                "value": "1.3.0",
+                "description": "Transport og annen infrastruktur"
+              },
+              {
+                "color": "rgba(255, 170, 0, 1)",
+                "value": "1.3.5",
+                "description": "Transport og annen infrastruktur"
+              },
+              {
+                "color": "rgba(255, 170, 0, 1)",
+                "value": "1.3.4",
+                "description": "Transport og annen infrastruktur"
+              },
+              {
+                "color": "rgba(255, 170, 0, 1)",
+                "value": "1.3.3",
+                "description": "Transport og annen infrastruktur"
+              },
+              {
+                "color": "rgba(255, 170, 0, 1)",
+                "value": "1.3.1",
+                "description": "Transport og annen infrastruktur"
+              },
+              {
+                "color": "rgba(255, 127, 127, 1)",
+                "value": "1.4.1",
+                "description": "Parker og sportsområder"
+              },
+              {
+                "color": "rgba(255, 127, 127, 1)",
+                "value": "1.4.2",
+                "description": "Parker og sportsområder"
+              },
+              {
+                "color": "rgba(168, 0, 132, 1)",
+                "value": "1.5.2",
+                "description": "Gravlunder og  kirkegårder"
+              },
+              {
+                "color": "rgba(255, 167, 127, 1)",
+                "value": "1.0.0",
+                "description": "Annen bebyggelse/samferdsel"
+              },
+              {
+                "color": "rgba(255, 211, 127, 1)",
+                "value": "2.0.0",
+                "description": "Dyrket mark, uklassifisert"
+              },
+              {
+                "color": "rgba(255, 255, 190, 1)",
+                "value": "6.0.0",
+                "description": "Grasmark, innmarksbeite"
+              },
+              {
+                "color": "rgba(163, 255, 115, 1)",
+                "value": "4.1.0",
+                "description": "Bladfellende lauvskog"
+              },
+              {
+                "color": "rgba(85, 255, 0, 1)",
+                "value": "4.2.0",
+                "description": "Barskog"
+              },
+              {
+                "color": "rgba(107, 237, 59, 1)",
+                "value": "4.4.0",
+                "description": "Blandingsskog"
+              },
+              {
+                "color": "rgba(18, 181, 29, 1)",
+                "value": "4.0.0",
+                "description": "Skog, uklassifisert"
+              },
+              {
+                "color": "rgba(230, 230, 0, 1)",
+                "value": "5.2.0",
+                "description": "Hei og buskmark"
+              },
+              {
+                "color": "rgba(190, 255, 232, 1)",
+                "value": "3.2.0",
+                "description": "Naturlig og semi-naturlig grasmark"
+              },
+              {
+                "color": "rgba(130, 130, 130, 1)",
+                "value": "Annen lite vegetert mark",
+                "description": "Annen lite vegetert mark"
+              },
+              {
+                "color": "rgba(232, 190, 255, 1)",
+                "value": "Myr",
+                "description": "Myr"
+              },
+              {
+                "color": "rgba(0, 112, 255, 1)",
+                "value": "8.1.0",
+                "description": "Elver og bekker"
+              },
+              {
+                "color": "rgba(0, 197, 255, 1)",
+                "value": "9.1.0",
+                "description": "Innsjøer og dammer"
+              },
+              {
+                "color": "rgba(204, 204, 204, 1)",
+                "value": "11.0.0",
+                "description": "Svaberg, kyststrender og dyner"
+              },
+              {
+                "color": "rgba(190, 232, 255, 1)",
+                "value": "12.0.0",
+                "description": "Marine økosystemer"
+              },
+              {
+                "color": "rgba(24, 26, 25, 1)",
+                "value": "Uklassifisert",
+                "description": "Uklassifisert"
+              }
+            ]
+          }
         }
       }
     },
